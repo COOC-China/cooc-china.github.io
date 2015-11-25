@@ -1,0 +1,50 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    {% if page.description %}
+        {% assign description = page.description | strip_html | strip_newlines | truncate: 160 %}
+    {% else %}
+        {% assign description = site.description %}
+    {% endif %}
+    {% if description %}
+        <meta name="description" content="{{ description }}">
+    {% endif %}
+
+    {% if page.keywords %}
+        {% assign keywords = page.keywords | strip_html | strip_newlines | truncate: 160 %}
+    {% else %}
+        {% assign keywords = site.keywords %}
+    {% endif %}
+    {% if keywords %}
+        <meta name="keywords" content="{{ keywords }}">
+    {% endif %}
+
+    {% if page.author %}
+        {% assign author = page.author %}
+    {% else %}
+        {% assign author = site.title %}
+    {% endif %}
+    {% if author %}
+        <meta name="author" content="{{ author }}">
+    {% endif %}
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+    <!-- Feed -->
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/libraries/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/libraries/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/assets/css/main.min.css">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="/assets/libraries/js/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="/assets/libraries/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/main.min.js"></script>
+</head>
