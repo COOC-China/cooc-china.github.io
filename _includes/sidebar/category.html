@@ -1,0 +1,17 @@
+<div id="category" class="card">
+    <div class="card-title">
+        <h4>课程分类</h4>
+        <button aria-expanded="true" class="btn-icon pull-right expandableBtn">
+            <span class="glyphicon glyphicon-menu-down"/>
+        </button>
+    </div>
+    <ul>
+        {% for category in site.categories %}
+        <li>
+            <button class="btn btn-default categoryBtn" category="{{ category | first }}">
+                {{ category[0] }} &nbsp; <sup>{{ category | last | size }}</sup>
+            </button>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

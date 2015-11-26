@@ -1,0 +1,50 @@
+---
+---
+.btn-icon{
+    border-radius: 50%;
+    font-size: 18px;
+    height: 32px;
+    margin-left: 0;
+    margin-right: 20px;
+    min-width: 32px;
+    width: 32px;
+    padding: 0;
+    overflow: hidden;
+    color: #fff;
+    line-height: normal;
+    background: transparent;
+    border: none;
+    position: relative;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    overflow: hidden;
+    will-change: box-shadow, transform;
+    -webkit-transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-icon::-moz-focus-inner {
+    border: 0;
+}
+.btn-icon:hover {
+    background-color: rgba(158, 158, 158, 0.20);
+}
+.btn-icon:focus:not(:active) {
+    background-color: rgba(0, 0, 0, 0.12);
+}
+.btn-icon:active {
+    background-color: rgba(158, 158, 158, 0.40);
+}
+
+@import "syntax-highlighting";
+
+@import "footer";
+@import "sidebar";
+@import "navbar";
