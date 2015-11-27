@@ -46,6 +46,9 @@ html{
 .btn-icon:active {
     background-color: rgba(158, 158, 158, 0.40);
 }
+#main{
+    overflow: hidden;
+}
 
 @import "syntax-highlighting";
 @import "articles";
