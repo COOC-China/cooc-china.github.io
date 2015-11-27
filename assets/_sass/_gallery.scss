@@ -9,12 +9,12 @@
         ul{
             list-style: none;
             padding: 0;
-            width: 105%;
+            display:flex;
+            flex: 1;
+            flex-wrap: wrap;
+            justify-content: space-between;
             li{
-                display: inline-block;
-                float: left;
                 margin-bottom: 10px;
-                margin-right: 14px;
                 img{
                     display: inline-block;
                     width: 130px;
