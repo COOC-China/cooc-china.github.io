@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div id="categories">
+    <!-- ProgressBar -->
+    <!--<div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>-->
+
+    {% for category in site.categories %}
+    <div class="panel panel-default" hidden="hidden" category="{{ category | first }}">
+        <div class="panel-heading">
+            <h2 class="panel-title">[ {{ category | first }} ] 分类下所有文章</h2>
+        </div>
+
+        <div class="panel-body">
+            <ol>
+                {% assign c_name = category[0] %}
+                {% for post in site.categories[c_name] %}
+                <li>
+                    <a id="{{ post.id }}" href="{{ post.url }}">
+                        <strong>{{ post.title }}</strong>&nbsp;
+                    </a>
+                    <span>{{ post.date | date: "%Y-%m-%d" }}</span>
+                </li>
+                {% endfor %}
+            </ol>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var c_category = getCookie(CATEGORY);
+
+        $("div#categories").children('.panel').each(function () {
+            var category = $(this).attr('category');
+            if (category == c_category) {
+                $(this).removeAttr('hidden');
+//                $("div#p2").hide();
+            }
+        });
+    });
+</script>

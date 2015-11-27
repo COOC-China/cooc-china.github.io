@@ -1,8 +1,10 @@
 ---
 ---
+*{
+    border-radius: 0 !important;
+}
 .btn-icon{
-    border-radius: 50%;
-    font-size: 18px;
+    border-radius: 50% !important;
     height: 32px;
     margin-left: 0;
     margin-right: 20px;
@@ -10,13 +12,12 @@
     width: 32px;
     padding: 0;
     overflow: hidden;
-    color: #fff;
     line-height: normal;
     background: transparent;
     border: none;
     position: relative;
     display: inline-block;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0;
     overflow: hidden;
@@ -44,7 +45,12 @@
 }
 
 @import "syntax-highlighting";
+@import "articles";
 
 @import "footer";
 @import "sidebar";
 @import "navbar";
+@import "article";
+@import "page";
+@import "categories";
+@import "gallery";

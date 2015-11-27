@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+<div id="main" class="container">
+
+    <div id="gallery" class="row">
+        <div class="col-md-12">
+            <span class="label label-info">所有课程</span>
+        </div>
+        <div id="thumbs" class="col-md-12">
+            {{ content }}
+        </div>
+        <div class="col-md-12">
+
+            <button id="galleryBtn" aria-expanded="false" class="btn btn-default pull-right">查看全部</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <span class="label label-info">精选课程</span>
+        </div>
+        <div class="col-md-9 col-sm-12">
+            {% assign articles = site.posts %}
+            {% include content/articles.html %}
+        </div>
+
+        <div class="col-md-offset-0 col-md-3 col-sm-12 col-sm-offset-0">
+            {% include sidebar/index.html %}
+        </div>
+    </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>

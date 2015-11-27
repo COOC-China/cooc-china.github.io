@@ -1,0 +1,32 @@
+#articles{
+    .panel{
+        margin-bottom: 20px;
+        .panel-heading{
+            padding: 20px 10px 10px 15px;
+            .panel-title{
+                font-size: 28px;
+            }
+            .post-meta{
+                span{
+                    font-size: 13px;
+                    margin: 15px 10px 0 0;
+                    a{
+                        text-transform: uppercase;
+                        color: #fff;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .panel-body{
+            p{
+                font-size: 16px;
+                text-indent: 32px;
+            }
+            img{
+                max-width: 90%;
+                box-shadow: 2px 2px 3px #424242;
+            }
+        }
+    }
+}

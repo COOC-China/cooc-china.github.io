@@ -1,0 +1,33 @@
+#gallery{
+    overflow: hidden;
+    .col-md-12>button{
+        margin-bottom: 20px;
+    }
+    #thumbs{
+        overflow:hidden;
+        height: 180px;
+        ul{
+            list-style: none;
+            padding: 0;
+            width: 105%;
+            li{
+                display: inline-block;
+                float: left;
+                margin-bottom: 10px;
+                margin-right: 14px;
+                img{
+                    display: inline-block;
+                    width: 130px;
+                    height: 170px;
+                    padding: 4px;
+                    line-height: 1.42857143;
+                    background-color: #fff;
+                    border: 1px solid #ddd;
+                    -webkit-transition: all .2s ease-in-out;
+                    -o-transition: all .2s ease-in-out;
+                    transition: all .2s ease-in-out;
+                }
+            }
+        }
+    }
+}

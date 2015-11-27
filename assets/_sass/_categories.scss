@@ -1,0 +1,19 @@
+#categories{
+    #p2{
+        width: auto;
+    }
+    .panel {
+        min-height: 350px;
+        .panel-heading{
+            .panel-title{
+                font-size: 28px;
+            }
+        }
+        .panel-body{
+            li {
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
