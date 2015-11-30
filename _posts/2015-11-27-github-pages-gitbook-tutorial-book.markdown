@@ -11,4 +11,4 @@ categories: '课程建立'
 
 ![](/images/2015-11-27/github-pages-gitbook-tutorial-book.png)
 
-[点击此处开始阅读](https://www.gitbook.com/book/cooc-china/gitbook-tutorial/details)
+[学习课程](https://www.gitbook.com/book/cooc-china/gitbook-tutorial/details)

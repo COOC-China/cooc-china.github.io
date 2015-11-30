@@ -3,7 +3,7 @@ layout: index
 ---
 
 * [![使用 GitBook 建立在线课程](/images/book-thumb/gitbook-tutorial.png)](https://cooc-china.gitbooks.io/gitbook-tutorial/content/)
-* [![嵌入式系统底层开发](/images/book-thumb/embeded-system-develop.png)]( https://cooc-china.gitbooks.io/embedded-system-development/content/)
+* [![嵌入式系统底层开发](/images/book-thumb/embeded-system-develop.png)](https://cooc-china.gitbooks.io/embedded-system-development/content/)
 * [![C 语言变成透视](/images/book-thumb/cbook.jpg)]()
 * [![Shell 编程范例系列](images/book-thumb/shellbook.jpg)]()
 * [![Linux Doc 中文化](/images/book-thumb/linux-doc.jpg)]()
