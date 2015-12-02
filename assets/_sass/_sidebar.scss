@@ -10,8 +10,13 @@
     #category{
         ul{
             list-style: none;
+            display:flex;
+            flex: 1;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 15px 10px ;
+            margin-bottom: 0;
             li{
-                display: inline-block;
                 margin-bottom: 10px;
                 button{
                     text-transform: uppercase;
