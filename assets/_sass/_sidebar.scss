@@ -7,24 +7,90 @@
             margin-top: -6px;
         }
     }
+    #searchBox{
+        form{
+            margin: 0;
+        }
+    }
     #category{
-        ul{
+        ul {
             list-style: none;
-            display:flex;
-            flex: 1;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 15px 10px ;
-            margin-bottom: 0;
-            li{
+            padding: 15px 10px;
+            margin-bottom: -10px;
+            li {
+                width: 70%;
                 margin-bottom: 10px;
-                width: 50%;
-                button{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                button {
                     text-transform: uppercase;
-                    .badge{
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    width: 100%;
+                    white-space: normal;
+                    .badge {
                         background-color: #337ab7;
                         border-radius: 50% !important;
+                        float: right;
                     }
+                }
+            }
+            @media (min-width: 550px) {
+                li {
+                    display: inline-block;
+                    float: left;
+                    width: 50%;
+                }
+                li:nth-child(2n){
+                    padding-left: 5px;
+                }
+                li:nth-child(2n+1){
+                    padding-right: 5px;
+                }
+            }
+            @media (min-width: 992px) {
+                li{
+                    width: 90%;
+                    display: block;
+                    float: none;
+                    margin-left: auto;
+                    margin-right: auto;
+                    button{
+                        white-space: nowrap;
+                        .badge{
+                            float: none;
+                        }
+                    }
+                }
+                li:nth-child(2n){
+                    padding-left: 0px;
+                }
+                li:nth-child(2n+1){
+                    padding-right: 0px;
+                }
+            }
+            @media (min-width: 1200px) {
+                li{
+                    button{
+                        white-space: normal;
+                        .badge{
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #recentComments{
+        .panel-body{
+            ul.dsq-widget-list{
+                padding-left:0;
+                margin: 0;
+                li.dsq-widget-item{
+                    padding: 5px 0;
+                    margin: 0;
+                    border-bottom: solid 1px #eaeaea;
                 }
             }
         }
