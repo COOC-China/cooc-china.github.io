@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa2a4776-a4ce-435e-ba2b-cb254d9c5053" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/sidebar/category.html" afterPath="$PROJECT_DIR$/_includes/sidebar/category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/sidebar/recentComments.html" afterPath="$PROJECT_DIR$/_includes/sidebar/recentComments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/sidebar/searchBox.html" afterPath="$PROJECT_DIR$/_includes/sidebar/searchBox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_sass/_articles.scss" afterPath="$PROJECT_DIR$/assets/_sass/_articles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_sass/_gallery.scss" afterPath="$PROJECT_DIR$/assets/_sass/_gallery.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_sass/_navbar.scss" afterPath="$PROJECT_DIR$/assets/_sass/_navbar.scss" />
     </list>
     <ignored path="cooc-china.github.io.iws" />
@@ -41,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navbar.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_navbar.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/_sass/_navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.6153846">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.09214092">
+              <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -81,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_articles.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_articles.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/_sass/_articles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32692307">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -174,9 +168,9 @@
         <option value="$PROJECT_DIR$/_includes/content/articles.html" />
         <option value="$PROJECT_DIR$/assets/_sass/_gallery.scss" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/assets/_sass/_navbar.scss" />
         <option value="$PROJECT_DIR$/_layouts/index.html" />
         <option value="$PROJECT_DIR$/assets/_sass/_articles.scss" />
+        <option value="$PROJECT_DIR$/assets/_sass/_navbar.scss" />
       </list>
     </option>
   </component>
@@ -953,12 +947,12 @@
       <workItem from="1449019932720" duration="7153000" />
       <workItem from="1449048904140" duration="487000" />
       <workItem from="1449371645341" duration="1330000" />
-      <workItem from="1449391245196" duration="5934000" />
+      <workItem from="1449391245196" duration="6128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66837000" />
+    <option name="totallyTimeSpent" value="67031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="21" width="1320" height="747" extended-state="6" />
@@ -968,7 +962,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32535884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32376397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1375,14 +1369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/_sass/_navbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/libraries/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.517857">
@@ -1393,8 +1379,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/_sass/_articles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32692307">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/_sass/_navbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09214092">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
         </state>
       </provider>
