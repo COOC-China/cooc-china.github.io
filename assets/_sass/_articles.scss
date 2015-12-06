@@ -5,6 +5,12 @@
             padding: 20px 10px 10px 15px;
             .panel-title{
                 font-size: 28px;
+                a{
+                    text-decoration: none;
+                }
+                a:hover{
+                    color: #337ab7;
+                }
             }
             .post-meta{
                 span{

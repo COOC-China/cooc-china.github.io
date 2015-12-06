@@ -5,10 +5,11 @@
     }
     #thumbs{
         overflow:hidden;
-        height: 180px;
+        height: 190px;
         ul{
+            background-color: #fdfdfd;
             list-style: none;
-            padding: 0;
+            padding: 10px 0 0 0;
             display:flex;
             flex: 1;
             flex-wrap: wrap;
@@ -26,6 +27,7 @@
                     -webkit-transition: all .2s ease-in-out;
                     -o-transition: all .2s ease-in-out;
                     transition: all .2s ease-in-out;
+                    box-shadow: 1px 1px 1px #424242;
                 }
             }
         }
