@@ -9,12 +9,12 @@
 
             <div class="post-meta">
                 <span class="label label-default">
-                    <span class="glyphicon glyphicon-calendar"></span>
+                    <i class="fa fa-calendar"></i>
                     {{ post.date | date: "%Y-%m-%d" }}
                 </span>
                 {% if post.categories %}
                 <span class="label label-default">
-                    <span class="glyphicon glyphicon-folder-close"></span>
+                    <i class="fa fa-folder"></i>
                     {% for category in post.categories %}
                     <a class="categoryBtn" category="{{ category }}">{{ category }}</a>
                     {% endfor %}
