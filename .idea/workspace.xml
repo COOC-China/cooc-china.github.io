@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa2a4776-a4ce-435e-ba2b-cb254d9c5053" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/navbar-bg.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/content/articles.html" afterPath="$PROJECT_DIR$/_includes/content/articles.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/footer.html" afterPath="$PROJECT_DIR$/_includes/footer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/header.html" afterPath="$PROJECT_DIR$/_includes/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/sidebar/category.html" afterPath="$PROJECT_DIR$/_includes/sidebar/category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/sidebar/recentComments.html" afterPath="$PROJECT_DIR$/_includes/sidebar/recentComments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/sidebar/searchBox.html" afterPath="$PROJECT_DIR$/_includes/sidebar/searchBox.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/index.html" afterPath="$PROJECT_DIR$/_layouts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_sass/_article.scss" afterPath="$PROJECT_DIR$/assets/_sass/_article.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_sass/_articles.scss" afterPath="$PROJECT_DIR$/assets/_sass/_articles.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_sass/_footer.scss" afterPath="$PROJECT_DIR$/assets/_sass/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_sass/_navbar.scss" afterPath="$PROJECT_DIR$/assets/_sass/_navbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.min.scss" afterPath="$PROJECT_DIR$/assets/css/main.min.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_sass/_gallery.scss" afterPath="$PROJECT_DIR$/assets/_sass/_gallery.scss" />
     </list>
     <ignored path="cooc-china.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,11 +35,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navbar.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_navbar.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/_sass/_navbar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2977233">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_gallery.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/_sass/_gallery.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23817864">
+              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -106,7 +103,6 @@
         <option value="$PROJECT_DIR$/_includes/sidebar/index.html" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/assets/scripts/main.min.js" />
-        <option value="$PROJECT_DIR$/assets/_sass/_gallery.scss" />
         <option value="$PROJECT_DIR$/assets/_sass/_categories.scss" />
         <option value="$PROJECT_DIR$/search.json" />
         <option value="$PROJECT_DIR$/assets/_sass/_search.scss" />
@@ -127,6 +123,7 @@
         <option value="$PROJECT_DIR$/assets/css/main.min.scss" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/assets/_sass/_navbar.scss" />
+        <option value="$PROJECT_DIR$/assets/_sass/_gallery.scss" />
       </list>
     </option>
   </component>
@@ -936,12 +933,12 @@
       <workItem from="1449451010686" duration="6006000" />
       <workItem from="1449457328804" duration="83000" />
       <workItem from="1449457450935" duration="2463000" />
-      <workItem from="1449476099566" duration="4410000" />
+      <workItem from="1449476099566" duration="5347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81152000" />
+    <option name="totallyTimeSpent" value="82089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="-5" width="1320" height="773" extended-state="6" />
@@ -988,20 +985,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/_sass/_sidebar.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1196,13 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/_sass/_gallery.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2692308">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/search.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8461537">
@@ -1370,10 +1346,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/book-thumb/book-thumb.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/book-thumb/android-asynctask-activity.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/_sass/_navbar.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2977233">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/_sass/_gallery.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23817864">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>
