@@ -3,8 +3,8 @@
 *{
     border-radius: 0 !important;
 }
-html{
-    overflow-x: hidden;
+body{
+    background-color: #f1f1f1;
 }
 .btn-icon{
     border-radius: 50% !important;
@@ -16,6 +16,45 @@ html{
     cursor: pointer;
     text-align: center;
     vertical-align: baseline;
+}
+.panel {
+    background-color: #e2e2e2;
+    .panel-top {
+        background-color: #504e4e;
+        h5{
+            margin: 0;
+            padding: 10px 20px;
+            color: #fff;
+            display: inline-block;
+        }
+        .expandableBtn{
+            color: #fff;
+            margin-right: 10px;
+        }
+    }
+    .panel-heading {
+        background-color: #cdcccc;
+        .post-meta{
+            .label,.label>a{
+                color: #060000;
+                cursor: pointer;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+        }
+    }
+    .panel-body,.panel-footer{
+        background-color: #e2e2e2;
+        #section{
+            background-color: #337ab7;
+            display: inline-block;
+            padding: 5px;
+            color: #fff;
+        }
+    }
+    .panel-footer{
+        min-height: 54px;
+    }
 }
 #main{
     overflow: hidden;

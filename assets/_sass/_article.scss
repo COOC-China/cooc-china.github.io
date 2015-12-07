@@ -10,11 +10,6 @@
             span {
                 font-size: 13px;
                 margin: 15px 10px 0 0;
-                a {
-                    text-transform: uppercase;
-                    color: #fff;
-                    cursor: pointer;
-                }
             }
         }
     }
@@ -34,11 +29,10 @@
             overflow: hidden;
             text-overflow: ellipsis;
         }
-        .btn:hover{
-            background-color: #5bc0de;
-        }
     }
     .article-comment {
-        margin: 15px;
+        border-top: solid 1px #eaeaea;
+        padding: 15px;
+        background-color: #e2e2e2;
     }
 }
