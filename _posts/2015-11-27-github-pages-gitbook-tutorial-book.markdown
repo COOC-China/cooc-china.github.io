@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "《使用 GitHub Pages 和 GitBook 建立在线课程》"
+title:  "使用 GitHub Pages 和 GitBook 建立在线课程"
 date:   2015-11-27 10:05:36 +0800
 categories: '课程建立'
 ---

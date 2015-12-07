@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa2a4776-a4ce-435e-ba2b-cb254d9c5053" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/_sass/_navbar.scss" afterPath="$PROJECT_DIR$/assets/_sass/_navbar.scss" />
-    </list>
+    <list default="true" id="aa2a4776-a4ce-435e-ba2b-cb254d9c5053" name="Default" comment="" />
     <ignored path="cooc-china.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -910,12 +908,12 @@
       <workItem from="1449451010686" duration="6006000" />
       <workItem from="1449457328804" duration="83000" />
       <workItem from="1449457450935" duration="2463000" />
-      <workItem from="1449476099566" duration="6335000" />
+      <workItem from="1449476099566" duration="6471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83077000" />
+    <option name="totallyTimeSpent" value="83213000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="-5" width="1320" height="773" extended-state="6" />

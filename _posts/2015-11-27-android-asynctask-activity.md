@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Android AsyncTask Activity 课程"
+title:  "Android AsyncTask Activity"
 date:   2015-11-27 19:05:36 +0800
 categories: ['Android']
 ---
