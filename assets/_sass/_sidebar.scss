@@ -22,6 +22,7 @@
                     display: block;
                     padding-bottom: 10px;
                     border-bottom: solid 1px #eaeaea;
+                    padding-left: 5px;
                 }
             }
         }
@@ -48,9 +49,6 @@
                         border-radius: 50% !important;
                         float: right;
                     }
-                }
-                button:hover{
-                    background-color: #5bc0de;
                 }
             }
             @media (min-width: 550px) {
