@@ -6,6 +6,7 @@
             font-size: 28px;
         }
         .post-meta {
+            margin-top: 10px;
             span {
                 font-size: 13px;
                 margin: 15px 10px 0 0;
@@ -32,6 +33,9 @@
             max-width: 50%;
             overflow: hidden;
             text-overflow: ellipsis;
+        }
+        .btn:hover{
+            background-color: #5bc0de;
         }
     }
     .article-comment {

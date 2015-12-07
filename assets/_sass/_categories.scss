@@ -3,7 +3,6 @@
         width: auto;
     }
     .panel {
-        min-height: 350px;
         .panel-heading{
             .panel-title{
                 font-size: 28px;
@@ -14,6 +13,11 @@
                 font-size: 16px;
                 margin-bottom: 10px;
             }
+        }
+    }
+    @media screen and (min-width: 992px){
+        .panel{
+            min-height: 420px;
         }
     }
 }

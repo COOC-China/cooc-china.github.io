@@ -6,12 +6,12 @@ layout: default
         <h1 class="panel-title">{{ page.title }}</h1>
 
         <div class="post-meta">
-            <span class="label label-default">
+            <span class="label label-info">
                 <i class="fa fa-calendar"></i>
                 <span>{{ page.date | date: "%Y-%m-%d" }}</span>
             </span>
             {% if page.categories %}
-            <span class="label label-default">
+            <span class="label label-info">
                 <i class="fa fa-folder"></i>
                 {% for category in page.categories %}
                 <a class="categoryBtn" category="{{ category }}">{{ category }}</a>
@@ -19,13 +19,13 @@ layout: default
             </span>
             {% endif %}
             {% if page.author %}
-            <span class="label label-default">
+            <span class="label label-info">
                 <i class="fa fa-user"></i>
                 <span>{{ page.author }}</span>
             </span>
             {% endif %}
             {% if page.meta %}
-            <span class="label label-default">
+            <span class="label label-info">
                 <i class="fa fa-info"></i>
                 <span>{{ page.meta }}</span>
             </span>
