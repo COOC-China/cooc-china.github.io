@@ -46,7 +46,7 @@ body{
     .panel-body,.panel-footer{
         background-color: #e2e2e2;
         #section{
-            background-color: #337ab7;
+            background-color: #007bff;
             display: inline-block;
             padding: 5px;
             color: #fff;
@@ -54,6 +54,9 @@ body{
     }
     .panel-footer{
         min-height: 54px;
+        .btn{
+            background-color: #007bff;
+        }
     }
 }
 #main{
