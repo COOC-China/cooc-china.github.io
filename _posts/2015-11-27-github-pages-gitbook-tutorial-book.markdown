@@ -12,6 +12,6 @@ GitHub是当今最流行的开源协作平台，GitBook是非常受欢迎的创�
 * 如何使用 GitHub Pages 功能建立课程网站
 * 如何使用 GitBook 创建及发布图书。
 
-[学习课程](https://www.gitbook.com/book/cooc-china/cooc-howto-book/details)
+[学习课程](https://cooc-china.gitbooks.io/cooc-howto-book/content/)
 
-[![](/images/2015-11-27/github-pages-gitbook-tutorial-book.png)](https://www.gitbook.com/book/cooc-china/cooc-howto-book/details)
+[![课程建设](/images/2015-11-27/github-pages-gitbook-tutorial-book.png)](https://cooc-china.gitbooks.io/cooc-howto-book/content/)
