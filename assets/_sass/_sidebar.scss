@@ -12,6 +12,7 @@
             margin: 0;
         }
         .panel-body {
+            padding: 0;
             ul {
                 padding-left: 0;
                 display: block;
@@ -28,10 +29,17 @@
         }
     }
     #category{
+        background-color: #235884;
+        .panel-top{
+            h5{
+                color: #FFFFFF;
+            }
+        }
         ul {
             list-style: none;
             padding: 15px 10px;
             margin-bottom: -10px;
+            background-color: #235884;
             li {
                 width: 70%;
                 margin-bottom: 10px;
@@ -45,7 +53,7 @@
                     width: 100%;
                     white-space: normal;
                     .badge {
-                        background-color: #127ddb;
+                        background-color: #0eabae;
                         border-radius: 50% !important;
                         float: right;
                     }
@@ -98,7 +106,14 @@
         }
     }
     #recentComments{
+        background-color: #235884;
+        .panel-top{
+            h5{
+                color: #FFFFFF;
+            }
+        }
         .panel-body{
+            background-color: #235884;
             ul.dsq-widget-list{
                 padding-left:0;
                 margin: 0;

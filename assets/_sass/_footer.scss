@@ -1,9 +1,14 @@
 #footer {
     overflow: hidden;
-    padding: 25px 0 15px 0;
+    padding: 40px 0 15px 0;
     color: #fff;
-    a{
-        text-decoration: underline;
-        color: #fcfcfc;
+    .row{
+        border-top: 2px solid #000000;
+        padding-top: 20px;
+        margin: 0 15px;
+        a{
+            text-decoration: underline;
+            color: #fcfcfc;
+        }
     }
 }

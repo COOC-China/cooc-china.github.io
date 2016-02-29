@@ -18,13 +18,12 @@ body{
     vertical-align: baseline;
 }
 .panel {
-    background-color: #e2e2e2;
+    background-color: #FFFFFF;
     .panel-top {
-        background-color: #504e4e;
         h5{
             margin: 0;
             padding: 10px 20px;
-            color: #fff;
+            color: #0eabae;
             display: inline-block;
         }
         .expandableBtn{
@@ -33,7 +32,7 @@ body{
         }
     }
     .panel-heading {
-        background-color: #cdcccc;
+        background-color: #FFFFFF;
         .post-meta{
             .label,.label>a{
                 color: #060000;
@@ -44,20 +43,21 @@ body{
         }
     }
     .panel-body,.panel-footer{
-        background-color: #e2e2e2;
+        background-color: #FFFFFF;
         #section{
-            background-color: #127ddb;
             display: inline-block;
             padding: 5px;
-            color: #fff;
+            font-size: 24px;
+            color: #000;
         }
     }
     .panel-footer{
         min-height: 54px;
         .btn{
-            background-color: #127ddb;
             outline: none;
             border: none;
+            background: transparent;
+            color: #7f7f7f;
         }
     }
 }

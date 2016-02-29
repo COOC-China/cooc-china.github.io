@@ -5,12 +5,12 @@
         <div class="panel-top">
             <h5>精选课程</h5>
         </div>
-        <div class="panel-heading">
-            <h3 class="panel-title">
+        <div class="panel-heading row">
+            <h3 class="panel-title col-md-7">
                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h3>
 
-            <div class="post-meta">
+            <div class="post-meta col-md-5 text-right">
                 <span class="label">
                     <i class="fa fa-calendar"></i>
                     {{ post.date | date: "%Y-%m-%d" }}
