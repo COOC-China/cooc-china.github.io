@@ -3,30 +3,32 @@
 
 {% include head.html %}
 
-<body>
+<body style="background: url('/assets/images/background.png') no-repeat; background-size: cover">
 
 {% include header.html %}
 
 <div id="main" class="container">
 
     <div id="gallery" class="row">
-        <div id="thumbs" class="col-md-12">
-            {{ content }}
-        </div>
         <div class="col-md-12">
 
-            <button id="galleryBtn" aria-expanded="false" class="btn btn-default pull-right">查看全部</button>
+            <button id="galleryBtn" aria-expanded="false" class="btn btn-default pull-right">展开&nbsp;<i class="fa fa-angle-double-right"></i></button>
+        </div>
+        <div id="thumbs" class="col-md-12">
+            {{ content }}
         </div>
     </div>
 
     <div class="row">
-        <div class="col-md-9 col-sm-12">
-            {% assign articles = site.posts %}
-            {% include content/articles.html %}
-        </div>
+        <div id="content" class="content">
+            <div class="col-md-9 col-sm-12">
+                {% assign articles = site.posts %}
+                {% include content/articles.html %}
+            </div>
 
-        <div class="col-md-offset-0 col-md-3 col-sm-12 col-sm-offset-0">
-            {% include sidebar/index.html %}
+            <div class="col-md-offset-0 col-md-3 col-sm-12 col-sm-offset-0">
+                {% include sidebar/index.html %}
+            </div>
         </div>
     </div>
 </div>

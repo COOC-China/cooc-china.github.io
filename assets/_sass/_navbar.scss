@@ -1,12 +1,11 @@
 #navbar {
+    margin-bottom: 0;
     .top{
-        height: 30px;
+        height: 5px;
         background-color: #1b1a20;
     }
-    background: url("/assets/images/navbar-bg.png") repeat-y;
-    background-size: contain;
+    background: #0eabae;
     border: none;
-    box-shadow: 1px 0 3px #000;
     .navbar-header {
         .navbar-toggle {
             background-color: transparent;

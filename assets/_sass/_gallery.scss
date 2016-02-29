@@ -1,7 +1,9 @@
 #gallery{
     overflow: hidden;
+    margin-bottom: 10px;
     .col-md-12>button{
-        margin-bottom: 20px;
+        margin-top: 40px;
+        padding: 3px 12px;
     }
     #thumbs{
         overflow:hidden;
