@@ -1,15 +1,25 @@
 #article {
     margin-bottom: 20px;
     .panel-heading {
-        padding: 20px 10px 10px 15px;
+        padding: 20px 10px 10px 0px;
+        margin-left: 20px;
+        margin-right: 20px;
         .panel-title {
-            font-size: 28px;
+            font-size: 26px;
+            padding-left: 0;
         }
         .post-meta {
             margin-top: 10px;
             span {
                 font-size: 13px;
                 margin: 15px 10px 0 0;
+                color: #b6b6b6;
+                a{
+                    color: #b6b6b6;
+                }
+                i{
+                    color: #ffb80d;
+                }
             }
         }
     }
@@ -33,6 +43,6 @@
     .article-comment {
         border-top: solid 1px #eaeaea;
         padding: 15px;
-        background-color: #e2e2e2;
+        background-color: #FFFFFF;
     }
 }
