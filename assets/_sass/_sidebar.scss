@@ -114,13 +114,14 @@
         }
         .panel-body{
             background-color: #235884;
-            ul.dsq-widget-list{
-                padding-left:0;
-                margin: 0;
-                li.dsq-widget-item{
-                    padding: 5px 0;
-                    margin: 0;
-                    border-bottom: solid 1px #eaeaea;
+            .ds-recent-comments{
+                color: #FFFFFF;
+                a{
+                    color: #FFFFFF;
+                    text-decoration: underline;
+                }
+                a:hover{
+                    text-decoration: none;
                 }
             }
         }
