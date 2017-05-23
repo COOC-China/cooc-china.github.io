@@ -6,7 +6,7 @@ categories: ['Blockly']
 ---
 
 ### 课程简介
-基于COOC平台建设在线协作《跟我玩Blockly》课程，该课程由多人合作完成，也可和多所高校进行协作分工，从而让教程汇集多方智慧，更加完整。
+基于COOC平台建设在线协作《跟我玩Blockly》课程教学资源，在Blockly开发小组的基础上，汇集了多所高校共同协作开发，统筹规划知识体系，是一套不断改进和完善的在线书籍。
 
 [学习课程](https://www.gitbook.com/read/book/yinhang2/-blockly)
 
