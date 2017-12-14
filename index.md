@@ -1,7 +1,8 @@
 ---
 layout: index
 ---
-* [![跟我玩Blockly](https://yinhang2.gitbooks.io/-blockly/content/assets/theme.png)](https://www.gitbook.com/read/book/yinhang2/-blockly)
+* [![计算机导论](/images/book-thumb/introduce_to_computer.png)](https://kinggolzu.gitbooks.io/introduction-to-computer/content/)
+* [![跟我玩Blockly](/images/book-thumb/play_with_blockly.png)](https://www.gitbook.com/read/book/yinhang2/-blockly)
 * [![Android课程手册](/images/book-thumb/android-course.png)](https://mobile100.gitbooks.io/android/content/)
 * [![App Inventor - 零基础Android移动应用开发](/images/book-thumb/app-inventer.png)](https://minghuiwu.gitbooks.io/appinventor/content/)
 * [![使用 GitHub Pages 和 GitBook 建立在线课程](/images/book-thumb/howto_logo.png)](https://cooc-china.gitbooks.io/cooc-howto-book/content/)
