@@ -9,4 +9,4 @@ categories: ['课程建立']
 
 [学习课程](https://kinggolzu.gitbooks.io/introduction-to-computer/content/)
 
-[![计算机导论](/images/book-thumb/introduce-to-computer.png)](https://kinggolzu.gitbooks.io/introduction-to-computer/content/)
+[![计算机导论](/images/book-thumb/introduce_to_computer.png)](https://kinggolzu.gitbooks.io/introduction-to-computer/content/)
