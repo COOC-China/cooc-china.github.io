@@ -2,12 +2,11 @@
 layout: post
 title:  "计算机导论"
 date:   2017-12-14 09:19:36 +0800
-categories: ['Blockly']
+categories: ['课程建立']
 ---
-
 ### 课程简介
-基于COOC平台建设在线协作《跟我玩Blockly》课程教学资源，在Blockly开发小组的基础上，汇集了多所高校共同协作开发，统筹规划知识体系，是一套不断改进和完善的在线书籍。
+《基于机器人的实践方法》这门COOC计算思维导论课程旨在为大学新生提供以计算思维为基础的综合性公共基础课程，内容以计算机相关知识为主，但不限于计算机专业，涵盖物理、数学、生命科学、哲学等多种学科。课程以COOC为基础平台，计算思维导向为核心，Github、Gitbook和pencil code为主要工具，构建了一门协作式开放课程。
 
 [学习课程](https://kinggolzu.gitbooks.io/introduction-to-computer/content/)
 
-[![跟我玩Blockly](/images/book-thumb/introduce-to-computer.png)](https://kinggolzu.gitbooks.io/introduction-to-computer/content/)
+[![j计算机导论](/images/book-thumb/introduce-to-computer.png)](https://kinggolzu.gitbooks.io/introduction-to-computer/content/)
