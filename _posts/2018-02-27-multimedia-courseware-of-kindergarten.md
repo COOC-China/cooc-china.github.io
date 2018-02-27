@@ -9,4 +9,4 @@ categories: ['课程建立']
 
 [学习课程](https://luyuwen.gitbooks.io/kmcp/content/)
 
-[![幼儿园多媒体课件制作](/images/book-thumb/kindergarten.peng)](https://luyuwen.gitbooks.io/kmcp/content/)
+[![幼儿园多媒体课件制作](/images/book-thumb/kindergarten.png)](https://luyuwen.gitbooks.io/kmcp/content/)
