@@ -1,7 +1,7 @@
 ---
 layout: index
 ---
-* [![幼儿园多媒体课件制作微课课程](/images/book-thumb/kindgarten.png)](https://luyuwen.gitbooks.io/kmcp/content/)
+* [![幼儿园多媒体课件制作微课课程](/images/book-thumb/kindergarten.png)](https://luyuwen.gitbooks.io/kmcp/content/)
 * [![计算机导论](/images/book-thumb/introduce_to_computer.png)](https://kinggolzu.gitbooks.io/introduction-to-computer/content/)
 * [![跟我玩Blockly](/images/book-thumb/play_with_blockly.png)](https://www.gitbook.com/read/book/yinhang2/-blockly)
 * [![Android课程手册](/images/book-thumb/android-course.png)](https://mobile100.gitbooks.io/android/content/)
