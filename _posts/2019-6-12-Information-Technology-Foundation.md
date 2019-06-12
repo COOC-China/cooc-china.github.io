@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Information-Technology-Foundation"
+title:  "大学生信息技术基础"
 date:   2019-06-12 19:05:36 +0800
 categories: ['课程建立']
 ---
