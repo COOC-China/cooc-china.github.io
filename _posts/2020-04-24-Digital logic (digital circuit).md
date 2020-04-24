@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Blockly Games"
-date:   2019-01-15 16:02:36 +0800
-categories: ['实验']
+title:  "数字逻辑（数字电路）"
+date:   2020-04-24 10:02:36 +0800
+categories: ['课程建立']
 ---
-### 实验简介
-Blockly Games是谷歌的一个开源项目，是一系列教授编程的教育游戏的合集。它专为没有计算机编程经验的青少年设计，旨在帮助孩子们实现自我教学和自定进度的学习，鼓励明天的程序员！在这些游戏结束时，玩家就可以开始使用传统的编程语言进行相关的学习了。
+### 课程简介
+本课程讲授数字电子技术的基本 概念，基本原理和基本分析方法，包括逻辑函 数的表示方法和化简方法，门电路的工作原理 和组合逻辑电路的分析和设计方法，触发器的 工作原理和时序逻辑的分析和设计方法。
 
-[开始实验](https://cooc-china.github.io/pages/blockly-games)
+[学习课程](https://zhumx13.gitbooks.io/graduation_book/content/)
 
-[![Blockly Games](/images/book-thumb/blockly-games.png)](https://cooc-china.github.io/pages/blockly-games)
+[![Digital logic (digital circuit) 课程](/images/book-thumb/Digital logic (digital circuit).png)](https://zhumx13.gitbooks.io/graduation_book/content/)
