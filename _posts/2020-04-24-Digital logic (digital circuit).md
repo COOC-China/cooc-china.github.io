@@ -9,4 +9,4 @@ categories: ['课程建立']
 
 [学习课程](https://zhumx13.gitbooks.io/graduation_book/content/)
 
-[![Digital logic (digital circuit) 课程](/images/book-thumb/Digital logic (digital circuit).png)](https://zhumx13.gitbooks.io/graduation_book/content/)
+[![Digital logic 课程](/images/book-thumb/Digital logic (digital circuit).png)](https://zhumx13.gitbooks.io/graduation_book/content/)
