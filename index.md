@@ -1,6 +1,7 @@
 ---
 layout: index
 ---
+* [![数字逻辑（数字电路）](/images/book-thumb/Digital-logic-digital-circuit.png)](https://zhumx13.gitbooks.io/graduation_book/content/)
 * [![大学生信息技术基础](/images/book-thumb/Information-Technology-Foundation.png)](https://luyuwen.gitbooks.io/uitf/content/)
 * [![幼儿园多媒体课件制作微课课程](/images/book-thumb/kindergarten.png)](https://luyuwen.gitbooks.io/kmcp/content/)
 * [![计算机导论](/images/book-thumb/introduce_to_computer.png)](https://kinggolzu.gitbooks.io/introduction-to-computer/content/)
