@@ -1,7 +1,7 @@
 ---
 layout: index
 ---
-* [![基于机器人的实践方法）](/images/book-thumb/Robot-based-practice.png)](https://zhaoyilun22.gitbook.io/robot/)
+* [![基于机器人的实践方法）](/images/book-thumb/robot-based-practice.png)](https://zhaoyilun22.gitbook.io/robot/)
 * [![数字逻辑（数字电路）](/images/book-thumb/Digital-logic-digital-circuit.png)](https://zhumx13.gitbooks.io/graduation_book/content/)
 * [![大学生信息技术基础](/images/book-thumb/Information-Technology-Foundation.png)](https://luyuwen.gitbooks.io/uitf/content/)
 * [![幼儿园多媒体课件制作微课课程](/images/book-thumb/kindergarten.png)](https://luyuwen.gitbooks.io/kmcp/content/)
