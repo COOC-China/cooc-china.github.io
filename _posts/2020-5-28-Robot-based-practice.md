@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "基于机器人的实践"
+title:  "基于机器人的实践方法"
 date:   2020-05-28 10:02:36 +0800
 categories: ['课程建立']
 ---
