@@ -9,6 +9,6 @@ categories: ['课程建立']
 
 [学习课程](https://zhaoyilun22.gitbook.io/robot/)
 
-[![Robot-based-practice 课程](/images/book-thumb/Robot-based-practice.png)](https://zhaoyilun22.gitbook.io/robot/)
+[![robot-based-practice 课程](/images/book-thumb/robot-based-practice.png)](https://zhaoyilun22.gitbook.io/robot/)
 
 
