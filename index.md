@@ -1,6 +1,7 @@
 ---
 layout: index
 ---
+* [![新一代信息技术）](/images/book-thumb/New-generation-information-technology.png)](https://www.yuque.com/swiftsonwran/myyobi)
 * [![基于机器人的实践方法）](/images/book-thumb/robot-based-practice.png)](https://zhaoyilun22.gitbook.io/robot/)
 * [![数字逻辑（数字电路）](/images/book-thumb/Digital-logic-digital-circuit.png)](https://zhumx13.gitbooks.io/graduation_book/content/)
 * [![大学生信息技术基础](/images/book-thumb/Information-Technology-Foundation.png)](https://luyuwen.gitbooks.io/uitf/content/)
