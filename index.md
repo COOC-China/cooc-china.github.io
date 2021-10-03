@@ -5,7 +5,7 @@ layout: index
 * [![基于机器人的实践方法）](/images/book-thumb/robot-based-practice.png)](https://zhaoyilun22.gitbook.io/robot/)
 * [![数字逻辑（数字电路）](/images/book-thumb/Digital-logic-digital-circuit.png)](https://zhumx13.gitbooks.io/graduation_book/content/)
 * [![大学生信息技术基础](/images/book-thumb/Information-Technology-Foundation.png)](https://luyuwen.gitbooks.io/uitf/content/)
-* [![幼儿园多媒体课件制作微课课程](/images/book-thumb/kindergarten.png)](https://luyuwen.gitbooks.io/kmcp/content/)
+* [![幼儿园多媒体课件制作微课课程](/images/book-thumb/kindergarten.png)](https://blockly.gitbook.io/kmcp/)
 * [![计算机导论](/images/book-thumb/introduce_to_computer.png)](https://kinggolzu.gitbooks.io/introduction-to-computer/content/)
 * [![跟我玩Blockly](/images/book-thumb/play_with_blockly.png)](https://rocape.gitbook.io/blockly/)
 * [![Android课程手册](/images/book-thumb/android-course.png)](https://mobile100.gitbooks.io/android/content/)
