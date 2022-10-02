@@ -1,6 +1,7 @@
 ---
 layout: index
 ---
+* [![Theories and Practices of Self-Driving Vehicles）](/images/book-thumb/ENselfDriving.png)](https://rocape.gitbook.io/selfdrivingen/)
 * [![甘肃省红色教育资源）](/images/book-thumb/Educational-Resources-in-Gansu.jpg)](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
 * [![无人驾驶原理与实践）](/images/book-thumb/selfDriving.png)](https://rocape.gitbook.io/selfdrivingcn/)
 * [![新一代信息技术）](/images/book-thumb/New-generation-information-technology.png)](https://www.yuque.com/swiftsonwran/myyobi)
