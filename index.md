@@ -2,7 +2,7 @@
 layout: index
 ---
 * [![甘肃省红色教育资源）](/images/book-thumb/Educational-Resources-in-Gansu.jpg)](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
-* [![无人驾驶实践与原理）](/images/book-thumb/selfDriving.png)](https://rocape.gitbook.io/selfdrivingcn/)
+* [![无人驾驶原理与实践）](/images/book-thumb/selfDriving.png)](https://rocape.gitbook.io/selfdrivingcn/)
 * [![新一代信息技术）](/images/book-thumb/New-generation-information-technology.png)](https://www.yuque.com/swiftsonwran/myyobi)
 * [![基于机器人的实践方法）](/images/book-thumb/robot-based-practice.png)](https://zhaoyilun22.gitbook.io/robot/)
 * [![数字逻辑（数字电路）](/images/book-thumb/Digital-logic-digital-circuit.png)](https://zhumx13.gitbooks.io/graduation_book/content/)
