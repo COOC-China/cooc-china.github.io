@@ -10,5 +10,3 @@ categories: '课程建立'
 站在工程应用的角度，学习和实践无人驾驶系统中的各种基本算法，是非常有必要的。本章为无人驾驶系统概述，主要介绍无人车以及无人驾驶系统的概念、无人驾驶技术的意义、无人驾驶技术的发展历程以及现代无人驾驶系统的体系结构。通过本书，读者会对当前流行的无人驾驶系统和算法体系等有一个清晰、完整的理解。
 
 [学习课程](https://rocape.gitbook.io/selfdrivingcn/)
-
-[![课程建设](/images/book-thumb/selfDriving.png)](https://rocape.gitbook.io/selfdrivingcn/)
