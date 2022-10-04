@@ -10,3 +10,5 @@ With the rapid advancement of driverless technology in the past two years, major
 From the perspective of engineering applications, it is very necessary to learn and practice various basic algorithms in unmanned vehicle systems. This chapter is an overview of unmanned vehicle systems, mainly introducing the concept of unmanned vehicles and unmanned vehicle systems, the significance of unmanned vehicle technology, the development history of unmanned vehicle technology, and the architecture of modern unmanned vehicle systems. Through this book, readers will have a clear and complete understanding of currently popular unmanned vehicle systems and algorithm systems.
 
 [学习课程](https://rocape.gitbook.io/selfdrivingen/)
+
+[![Theories and Practices of Self-Driving Vehicles](/images/book-thumb/ENselfDriving.png)](https://rocape.gitbook.io/selfdrivingen/)
