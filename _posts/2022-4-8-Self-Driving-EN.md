@@ -9,4 +9,5 @@ With the rapid advancement of driverless technology in the past two years, major
 
 [学习课程](https://rocape.gitbook.io/selfdrivingen/)
 
-[![Theories and Practices of Self-Driving Vehicles](/images/book-thumb/ENselfDriving.png)](https://rocape.gitbook.io/selfdrivingen/)
+<!-- [![Theories and Practices of Self-Driving Vehicles](/images/book-thumb/ENselfDriving.png)](https://rocape.gitbook.io/selfdrivingen/)
+ -->
