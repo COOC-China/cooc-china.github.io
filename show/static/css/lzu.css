@@ -1,0 +1,191 @@
+
+@font-face {font-family: "lzu";
+  src: url('../fonts/lzu.eot'); /* IE9*/
+  src: url('../fonts/lzu.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/2b727a9d95ad4c7188f091b27634e9cf.woff') format('woff'),
+  url('../fonts/lzu.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/lzu.svg') format('svg'); /* iOS 4.1- */
+}
+
+.lzu {
+  font-family:"lzu" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lzu-lzdx:before { content: "\642"; }
+
+.lzu-logo:before { content: "\641"; }
+
+.lzu-da:before { content: "\5927"; }
+
+.lzu-xue:before { content: "\5b66"; }
+
+.lzu-lan:before { content: "\5170"; }
+
+.lzu-zhou:before { content: "\5dde"; }
+
+.lzu-bu:before { content: "\4e0d"; }
+
+.lzu-qiang:before { content: "\5f3a"; }
+
+.lzu-jin:before { content: "\8fdb"; }
+
+.lzu-du:before { content: "\72ec"; }
+
+.lzu-qin:before { content: "\52e4"; }
+
+.lzu-fen:before { content: "\594b"; }
+
+.lzu-qiu:before { content: "\6c42"; }
+
+.lzu-yi:before { content: "\4e00"; }
+
+.lzu-xi:before { content: "\606f"; }
+
+.lzu-qu:before { content: "\53d6"; }
+
+.lzu-shu:before { content: "\6811"; }
+
+.lzu-shi:before { content: "\5b9e"; }
+
+.lzu-zi:before { content: "\81ea"; }
+
+.lzu-zhi:before { content: "\5e1c"; }
+
+.lzu-0:before { content: "\30"; }
+
+.lzu-1:before { content: "\31"; }
+
+.lzu-2:before { content: "\32"; }
+
+.lzu-3:before { content: "\33"; }
+
+.lzu-4:before { content: "\34"; }
+
+.lzu-6:before { content: "\36"; }
+
+.lzu-7:before { content: "\37"; }
+
+.lzu-5:before { content: "\35"; }
+
+.lzu-8:before { content: "\38"; }
+
+.lzu-A:before { content: "\41"; }
+
+.lzu-B:before { content: "\42"; }
+
+.lzu-9:before { content: "\39"; }
+
+.lzu-C:before { content: "\43"; }
+
+.lzu-D:before { content: "\44"; }
+
+.lzu-E:before { content: "\45"; }
+
+.lzu-F:before { content: "\46"; }
+
+.lzu-H:before { content: "\48"; }
+
+.lzu-I:before { content: "\49"; }
+
+.lzu-G:before { content: "\47"; }
+
+.lzu-J:before { content: "\4a"; }
+
+.lzu-K:before { content: "\4b"; }
+
+.lzu-L:before { content: "\4c"; }
+
+.lzu-N:before { content: "\4e"; }
+
+.lzu-M:before { content: "\4d"; }
+
+.lzu-O:before { content: "\4f"; }
+
+.lzu-P:before { content: "\50"; }
+
+.lzu-T:before { content: "\54"; }
+
+.lzu-R:before { content: "\52"; }
+
+.lzu-S:before { content: "\53"; }
+
+.lzu-Q:before { content: "\51"; }
+
+.lzu-U:before { content: "\55"; }
+
+.lzu-V:before { content: "\56"; }
+
+.lzu-X:before { content: "\58"; }
+
+.lzu-Y:before { content: "\59"; }
+
+.lzu-Z:before { content: "\5a"; }
+
+.lzu-W:before { content: "\e68c"; }
+
+.lzu-a-:before { content: "\61"; }
+
+.lzu-c-:before { content: "\63"; }
+
+.lzu-d-:before { content: "\64"; }
+
+.lzu-b-:before { content: "\62"; }
+
+.lzu-e-:before { content: "\65"; }
+
+.lzu-f-:before { content: "\66"; }
+
+.lzu-h-:before { content: "\68"; }
+
+.lzu-i-:before { content: "\69"; }
+
+.lzu-k-:before { content: "\6b"; }
+
+.lzu-l-:before { content: "\6c"; }
+
+.lzu-g-:before { content: "\67"; }
+
+.lzu-j-:before { content: "\6a"; }
+
+.lzu-r-:before { content: "\72"; }
+
+.lzu-o-:before { content: "\6f"; }
+
+.lzu-m-:before { content: "\6d"; }
+
+.lzu-p-:before { content: "\70"; }
+
+.lzu-n-:before { content: "\6e"; }
+
+.lzu-q-:before { content: "\71"; }
+
+.lzu-u-:before { content: "\75"; }
+
+.lzu-t-:before { content: "\74"; }
+
+.lzu-s-:before { content: "\73"; }
+
+.lzu-v-:before { content: "\76"; }
+
+.lzu-x-:before { content: "\78"; }
+
+.lzu-w-:before { content: "\77"; }
+
+.lzu-z-:before { content: "\7a"; }
+
+.lzu-y-:before { content: "\79"; }
+
+.lzu--:before { content: "\2d"; }
+
+.lzu-k-l:before { content: "\28"; }
+
+.lzu---:before { content: "\7e"; }
+
+.lzu-at:before { content: "\40"; }
+
+.lzu-k-r:before { content: "\29"; }
+

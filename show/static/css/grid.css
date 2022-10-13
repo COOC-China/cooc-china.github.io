@@ -1,0 +1,292 @@
+@charset "utf-8";
+
+/* #Base 960 Grid --- Powered by www.feihuang.net */
+/*
+ iPhone X 375*812
+ Jianguo Pro 432*864
+ iPhone 6+ 414*736
+ iPhone 6s 375*667
+ */
+
+.container { position: relative; width: 960px; margin: 0 auto; padding: 0;text-align: left;}
+.container .column, .container .columns { float: left; margin-left: 10px; margin-right: 10px; }
+
+
+/*默认值*/
+@media only screen and (min-width:960px) and (max-width:1199px) {
+
+}
+
+/* Base Grid */
+.container .one.column, .container .one.columns { width: 40px; }
+.container .two.columns { width: 100px; }
+.container .three.columns { width: 160px; }
+.container .four.columns { width: 220px; }
+.container .five.columns { width: 280px; }
+.container .six.columns { width: 340px; }
+.container .seven.columns { width: 400px; }
+.container .eight.columns { width: 460px; }
+.container .nine.columns { width: 520px; }
+.container .ten.columns { width: 580px; }
+.container .eleven.columns { width: 640px; }
+.container .twelve.columns { width: 700px; }
+.container .thirteen.columns { width: 760px; }
+.container .fourteen.columns { width: 820px; }
+.container .fifteen.columns { width: 880px; }
+.container .sixteen.columns { width: 940px; }
+.container .one-third.column { width: 300px; }
+.container .two-thirds.column { width: 620px; }
+.container .one-half.column { width: 450px; }
+
+
+.wrap{width:960px;margin: 0 auto;text-align: left;}
+.colspan { float: left; box-sizing: border-box; *behavior: url("/res/css/box-sizing.htc");}
+
+/* col */
+.container .col-1 { width: 80px; }
+.container .col-2 { width: 160px; }
+.container .col-3 { width: 240px; }
+.container .col-4 { width: 320px; }
+.container .col-5 { width: 400px; }
+.container .col-6 { width: 480px; }
+.container .col-7 { width: 560px; }
+.container .col-8 { width: 640px; }
+.container .col-9 { width: 720px; }
+.container .col-10 { width: 800px; }
+.container .col-11 { width: 880px; }
+.container .col-12 { width: 960px; }
+
+/* Offsets */
+.container .offset-by-one { padding-left: 60px; }
+.container .offset-by-two { padding-left: 120px; }
+.container .offset-by-three { padding-left: 180px; }
+.container .offset-by-four { padding-left: 240px; }
+.container .offset-by-five { padding-left: 300px; }
+.container .offset-by-six { padding-left: 360px; }
+.container .offset-by-seven { padding-left: 420px; }
+.container .offset-by-eight { padding-left: 480px; }
+.container .offset-by-nine { padding-left: 540px; }
+.container .offset-by-ten { padding-left: 600px; }
+.container .offset-by-eleven { padding-left: 660px; }
+.container .offset-by-twelve { padding-left: 720px; }
+.container .offset-by-thirteen { padding-left: 780px; }
+.container .offset-by-fourteen { padding-left: 840px; }
+.container .offset-by-fifteen { padding-left: 900px; }
+
+
+/*百分比布局*/
+.percent{width:100%;*zoom:1;}
+.percent:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.percent .per{float: left;position:relative;-moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -o-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     box-sizing: border-box;  *behavior: url("/res/css/box-sizing.htc");}
+.per-100{width:100%;}
+.per-50{width:50%;}
+.per-2_1{width:50%;}
+.per-3_1{width:33.333333%;}
+.per-3_2{width:66.666666%;}
+.per-4_1{width:25%;}
+.per-4_3{width:75%;}
+.per-5_1{width:20%;}
+.per-5_2{width:40%;}
+.per-5_3{width:60%;}
+.per-5_4{width:80%;}
+.per-6_1{width:16.666666%;}
+.per-6_5{width:83.333333%;}
+.per-8_1{width:12.5%;}
+.per-12_1{width:8.333333%;}
+
+
+@media only screen and (min-width:1200px) {
+    .container { width: 1200px; }
+    .container .column, .container .columns {  }
+    .column.alpha, .columns.alpha { margin-left: 0; margin-right: 10px; }
+    .column.omega, .columns.omega { margin-right: 0; margin-left: 10px; }
+    .alpha.omega { margin-left: 0; margin-right: 0; }
+    .container .one.column, .container .one.columns { width: 50px; }
+    .container .two.columns { width: 120px; }
+    .container .three.columns { width: 190px; }
+    .container .four.columns { width: 260px; }
+    .container .five.columns { width: 330px; }
+    .container .six.columns { width: 400px; }
+    .container .seven.columns { width: 470px; }
+    .container .eight.columns { width: 540px; }
+    .container .nine.columns { width: 610px; }
+    .container .ten.columns { width: 680px; }
+    .container .eleven.columns { width: 750px; }
+    .container .twelve.columns { width: 820px; }
+    .container .thirteen.columns { width: 890px; }
+    .container .fourteen.columns { width: 960px; }
+    .container .fifteen.columns { width: 1030px; }
+    .container .sixteen.columns { width: 1100px; }
+    .container .one-third.column { width: 353px; }
+    .container .two-thirds.column { width: 716px; }
+
+    /* Offsets */
+    .container .offset-by-one { padding-left: 70px; }
+    .container .offset-by-two { padding-left: 140px; }
+    .container .offset-by-three { padding-left: 210px; }
+    .container .offset-by-four { padding-left: 280px; }
+    .container .offset-by-five { padding-left: 350px; }
+    .container .offset-by-six { padding-left: 420px; }
+    .container .offset-by-seven { padding-left: 490px; }
+    .container .offset-by-eight { padding-left: 560px; }
+    .container .offset-by-nine { padding-left: 630px; }
+    .container .offset-by-ten { padding-left: 700px; }
+    .container .offset-by-eleven { padding-left: 770px; }
+    .container .offset-by-twelve { padding-left: 840px; }
+    .container .offset-by-thirteen { padding-left: 910px; }
+    .container .offset-by-fourteen { padding-left: 980px; }
+    .container .offset-by-fifteen { padding-left: 1050px; }
+
+    /* col */
+    .container .col-1 { width: 100px; }
+    .container .col-2 { width: 200px; }
+    .container .col-3 { width: 300px; }
+    .container .col-4 { width: 400px; }
+    .container .col-5 { width: 500px; }
+    .container .col-6 { width: 600px; }
+    .container .col-7 { width: 700px; }
+    .container .col-8 { width: 800px; }
+    .container .col-9 { width: 900px; }
+    .container .col-10 {width:1000px; }
+    .container .col-11 {width:1100px; }
+    .container .col-12 {width:1200px; }
+}
+
+/*小屏幕支持html5的浏览器满屏显示*/
+@media only screen and (max-width:1200px) {
+    .container { width: 100%; }
+}
+@media only screen and (max-width:959px) {
+    .container .column, .container .columns { margin-left: 10px; margin-right: 10px; margin-bottom: 21px; }
+    .column.alpha, .columns.alpha { margin-left: 0; margin-right: 10px; }
+    .column.omega, .columns.omega { margin-right: 0; margin-left: 10px; }
+    .alpha.omega { margin-left: 0; margin-right: 0; }
+
+    .container .columns, .container .column { margin: 0; margin-bottom: 15px; }
+    .container .one.column, .container .one.columns, .container .two.columns, .container .three.columns, .container .four.columns, .container .five.columns, .container .six.columns, .container .seven.columns, .container .eight.columns, .container .nine.columns, .container .ten.columns, .container .eleven.columns, .container .twelve.columns, .container .thirteen.columns, .container .fourteen.columns, .container .fifteen.columns, .container .sixteen.columns, .container .one-third.column, .container .one-half.column, .container .two-thirds.column { width: 100%; }
+
+    /* Offsets */
+    .container .offset-by-one, .container .offset-by-two, .container .offset-by-three, .container .offset-by-four, .container .offset-by-five, .container .offset-by-six, .container .offset-by-seven, .container .offset-by-eight, .container .offset-by-nine, .container .offset-by-ten, .container .offset-by-eleven, .container .offset-by-twelve, .container .offset-by-thirteen, .container .offset-by-fourteen, .container .one-half.column, .container .offset-by-fifteen { padding-left: 0; }
+
+    .container .col-1, .container .col-2, .container .col-3, .container .col-4, .container .col-5, .container .col-6, .container .col-7, .container .col-8, .container .col-9, .container .col-10, .container .col-11, .container .col-12, .container .col-13, .container .col-14, .container .col-15, .container .col-16 { width:100%; }
+
+}
+
+
+/*移动端*/
+@media only screen and (max-width:1023px) {
+
+}
+
+/*手机，竖屏*/
+@media only screen and (max-width:639px) {
+    .percent .per{float: none;width:100%;}
+    .percent .per-m2_1{width:50%;float: left;}
+    #cover-3 ul{padding:0 15%;}
+}
+/*平板竖屏及全面屏竖屏*/
+@media only screen and (min-width:768px) and (max-width:959px) {
+    .container .one.column, .container .one.columns { width: 28px; }
+    .container .two.columns { width: 76px; }
+    .container .three.columns { width: 124px; }
+    .container .four.columns { width: 172px; }
+    .container .five.columns { width: 220px; }
+    .container .six.columns { width: 268px; }
+    .container .seven.columns { width: 316px; }
+    .container .eight.columns { width: 364px; }
+    .container .nine.columns { width: 412px; }
+    .container .ten.columns { width: 460px; }
+    .container .eleven.columns { width: 508px; }
+    .container .twelve.columns { width: 556px; }
+    .container .thirteen.columns { width: 604px; }
+    .container .fourteen.columns { width: 652px; }
+    .container .fifteen.columns { width: 700px; }
+    .container .sixteen.columns { width: 748px; }
+    .container .one-third.column { width: 236px; }
+    .container .two-thirds.column { width: 492px; }
+    .container .one-half.column { width: 354px; }
+
+    /* Offsets */
+    .container .offset-by-one { padding-left: 48px; }
+    .container .offset-by-two { padding-left: 96px; }
+    .container .offset-by-three { padding-left: 144px; }
+    .container .offset-by-four { padding-left: 192px; }
+    .container .offset-by-five { padding-left: 240px; }
+    .container .offset-by-six { padding-left: 288px; }
+    .container .offset-by-seven { padding-left: 336px; }
+    .container .offset-by-eight { padding-left: 384px; }
+    .container .offset-by-nine { padding-left: 432px; }
+    .container .offset-by-ten { padding-left: 480px; }
+    .container .offset-by-eleven { padding-left: 528px; }
+    .container .offset-by-twelve { padding-left: 576px; }
+    .container .offset-by-thirteen { padding-left: 624px; }
+    .container .offset-by-fourteen { padding-left: 672px; }
+    .container .offset-by-fifteen { padding-left: 720px; }
+
+    /* colspan */
+    .container .col-1 { width: 8.3333%; }
+    .container .col-2 { width: 16.6666%; }
+    .container .col-3 { width: 25%; }
+    .container .col-4 { width: 33.3333%; }
+    .container .col-5 { width: 41.6666%; }
+    .container .col-6 { width: 50%; }
+    .container .col-7 { width: 58.3333%; }
+    .container .col-8 { width: 66.6666%; }
+    .container .col-9 { width: 75%; }
+    .container .col-10 { width: 83.3333%; }
+    .container .col-11 { width: 91.6666%; }
+    .container .col-12 { width: 100%; }
+}
+/*常规横屏模式*/
+@media only screen and (min-width:640px) and (max-width:767px) {
+
+}
+
+
+/*未知区域*/
+@media only screen and (min-width:480px) and (max-width:639px) {
+
+}
+@media only screen and (min-width:433px) and (max-width:479px) {
+
+}
+
+
+/*ip+ android+*/
+@media only screen and (min-width:376px) and (max-width:432px) {
+
+}
+/*ipx, ip6, andriod big*/
+@media only screen and (min-width:360px) and (max-width:375px) {
+
+}
+
+/*ip4,android*/
+@media only screen and (min-width:320px) and (max-width:359px) {
+
+}
+
+/*超老机型*/
+@media only screen and (max-width:319px) {
+
+}
+
+/* #Clearing
+================================================== */
+
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* Use clearfix class on parent to clear nested columns, or wrap each row of columns in a <div class="row"> */
+.clearfix:before, .clearfix:after, .row:before, .row:after { content: '\0020'; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+.row:after, .clearfix:after { clear: both; }
+.row, .clearfix { zoom: 1;clear: both; }
+.row{clear:both;}
+
+/* You can also use a <br class="clear" /> to clear columns */
+.clear, .clr { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
+.clr { visibility: visible; overflow: visible; }
+.columns img, .column img, .colspan img, .one_half img, .one_third img, .two_third img, .three_fourth img, .one_fourth img, .one_fifth img, .two_fifth img { max-width: 100%; }

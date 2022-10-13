@@ -1,0 +1,105 @@
+@font-face {font-family: "ico";
+  src: url('../fonts/ico.eot'); /* IE9 */
+  src: url('../fonts/ico.eot') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/6ef0f07ad36e4243aaa4d312c3c95586.woff') format('woff2'),
+  url('../fonts/ico.woff') format('woff'),
+  url('../fonts/ico.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('../fonts/ico.svg') format('svg'); /* iOS 4.1- */
+}
+
+.ico {
+  font-family: "ico" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-wechat:before {
+  content: "\e617";
+}
+
+.ico-weibo:before {
+  content: "\e62f";
+}
+
+.ico-home:before {
+  content: "\e629";
+}
+
+.ico-email-o:before {
+  content: "\e61b";
+}
+
+.ico-mails:before {
+  content: "\e61d";
+}
+
+.ico-menu:before {
+  content: "\e612";
+}
+
+.ico-weibo-o:before {
+  content: "\e62d";
+}
+
+.ico-diamond:before {
+  content: "\e600";
+}
+
+.ico-weichat-o:before {
+  content: "\e606";
+}
+
+.ico-top:before {
+  content: "\e6aa";
+}
+
+.ico-email:before {
+  content: "\e63f";
+}
+
+.ico-brief:before {
+  content: "\e869";
+}
+
+.ico-squre:before {
+  content: "\e60d";
+}
+
+.ico-search:before {
+  content: "\e610";
+}
+
+.ico-cloud-l:before {
+  content: "\e616";
+}
+
+.ico-toright:before {
+  content: "\e723";
+}
+
+.ico-drop-down:before {
+  content: "\e7ac";
+}
+
+.ico-fangkuai:before {
+  content: "\e601";
+}
+
+.ico-so:before {
+  content: "\e62e";
+}
+
+.ico-cloud-r:before {
+  content: "\e6a4";
+}
+
+.ico-right:before {
+  content: "\e7ad";
+}
+
+.ico-toleft:before {
+  content: "\e86a";
+}
+
