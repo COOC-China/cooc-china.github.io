@@ -10,4 +10,4 @@ categories: ['Blockly']
 
 [学习课程](https://rocape.gitbook.io/blockly/)
 
-[![跟我玩Blockly](../images/book-thumb/play_with_blockly.png)](https://rocape.gitbook.io/blockly/)
+[![跟我玩Blockly](https://1892333157-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LAGigtuROPsQ2glV29e%2Fuploads%2Fgit-blob-b52e5fdcb83af3757ebae5dced03f4dc8e513904%2Fplay_with_blockly.png?alt=media)](https://rocape.gitbook.io/blockly/)
