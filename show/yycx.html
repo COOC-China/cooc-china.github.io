@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>基于“COOC+MOOC”的在线课程协同创建与应用</title>
+		<meta name="description" content="基于“COOC+MOOC”的在线课程协同创建与应用，2022年高等教育（本科）国家级教学成果奖申报" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="renderer" content="webkit" />
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1.0,minimum-scale=0.5, maximum-scale=10.0,user-scalable=yes">
+		<meta name="robots" content="all" />
+		<link rel="shortcut icon" type="image/x-icon" href="/res/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="static/css/global.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/grid.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/lzu.css" id="lzu" />
+		<link rel="stylesheet" type="text/css" href="static/css/ico.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/common.css" id="common" />
+		<script type="text/javascript" src="static/js/lzuicon.js" id="icon"></script>
+		<script type="text/javascript" src="static/js/lzujq.min.js"></script>
+		<script type="text/javascript" src="static/js/dialog.js"></script>
+		<script type="text/javascript" src="static/js/lzujq.touchswipe.min.js"></script>
+		<script type="text/javascript" src="static/js/lzu.js"></script>
+		<!--[if lt IE 9]>
+	<script type="text/javascript" src="static/js/html5shiv.min.js"></script>
+	<script type="text/javascript" src="static/js/respond.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="static/css/ie6-8.css" />
+	<![endif]-->
+		<!--[if IE 6]>
+	<link rel="stylesheet" type="text/css" href="static/css/ie6.css" />
+	<script type="text/javascript" src="static/js/ie6_maxmin.js"></script>
+	<script type="text/javascript" src="static/js/dd_belatedpng.min.js"></script>
+	<script>
+	DD_belatedPNG.fix('#row-1');
+	DD_belatedPNG.fix('.logo img');
+	DD_belatedPNG.fix('.nav-icon i');
+	DD_belatedPNG.fix('h2 i');
+	DD_belatedPNG.fix('.ilzu');
+	DD_belatedPNG.fix('.btm-bg-x');
+	DD_belatedPNG.fix('#btm-logo-out img');
+	</script>
+	<![endif]-->
+	
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Cache" content="no-cache">
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		<link rel="stylesheet" type="text/css" href="static/css/main.css" />
+	</head>
+
+<body id="page-12" data-catid="12">
+	<header>
+		<div id="nav-top" class="nomp">
+			<div class="" id="row-1">
+				<div class="container percent">
+					<div class="per per-4_1">
+						<span class="mob-show" id="mob-menu"><svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-menu"></use>
+							</svg></span>
+						<span class="mob-show" id="mob-service"><svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-service"></use>
+							</svg></span>
+						<span class="mob-show" id="mob-user"><svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-user"></use>
+							</svg></span>
+						<a href="#" class="logo">
+							<!--[if !IE]><!--><img src="static/picture/logo.svg" width="265" height="80" alt="兰州大学" />
+							<!--<![endif]-->
+							<!--[if IE]><!--[if gt IE 6]><img src="static/picture/logo@2x.png" width="265" height="80" alt="兰州大学" /><![endif]-->
+							<!--[if lt IE 7]><img src="static/picture/logo.png" width="265" height="80" alt="兰州大学" /><![endif]-->
+							<![endif]-->
+			</a>
+		</div>
+		<div class="per per-4_3">
+			<a href="#">
+				<img src="static/picture/big-title.png" width="900" height="80"/>
+			</a>
+		</div>
+	</div>
+	</div>
+	<div id="row-2">
+	<div class="container">
+		<div id="nav-shade" class="shade-right mob-show"><i class="ico ico-toright"></i></div>
+		<nav class="left">
+        <ul id="main-nav">
+        	<li class="nav-main"><a href="index.html"><span>首页</span></a></li>
+			<li rel="1" class="nav-main"><a href="yjgk.html"><span>研究概况</span><i class="ico ico-drop-down mob-none"></i></a></li>
+			<li rel="2" class="nav-main"><a href="yycx.html"><span>应用成效</span><i class="ico ico-drop-down mob-none"></i></a></li>
+			<li rel="3" class="nav-main"><a href="spzs.html"><span>视频展示</span></a></li>
+			<li rel="4" class="nav-main"><a href="cgjd.html"><span>成果鉴定</span></a></li>
+			<li rel="5" class="nav-main"><a href="fjcl.html"><span>附件材料</span><i class="ico ico-drop-down mob-none"></i></a></li>
+        	<!-- <li class="nav-main mob-show"><a href="http://en.lzu.edu.cn/"><span>English</span></a></li> -->
+        </ul>
+        </nav>
+        <form id="so-top" class="so right mob-none" action="javascript:search()" method="get" target="_blank">
+			<input type="hidden" name="human" value="yes">
+			<input type="text" id="so" value="" name="q" placeholder="请输入关键词..." />
+			<button type="submit"><i class="ico ico-so"></i></button>
+			<!-- TO DO：实现当前页面的Ctrl+F功能 -->
+		</form>
+	</div>
+	</div>
+</div>
+
+</header>
+<!-- 幻灯片 -->
+<div class="ADD_imgBox">
+    <img class="ADD_img-slide ADD_img1" src="static/picture/lzuPic/pc2.jpg" alt="校园风光">
+	<img class="ADD_img-slide ADD_img2" src="static/picture/lzuPic/pc1.jpg" alt="校园风光">
+	<img class="ADD_img-slide ADD_img3" src="static/picture/lzuPic/pc3.jpg" alt="校园风光">
+	<img class="ADD_img-slide ADD_img4" src="static/picture/lzuPic/pc4.jpg" alt="校园风光">
+</div>
+
+<script type="text/javascript">
+    var index=0;
+    //效果
+    function ChangeImg() {
+        index++;
+        var a=document.getElementsByClassName("ADD_img-slide");
+        if(index>=a.length) index=0;
+        for(var i=0;i<a.length;i++){
+            a[i].style.display='none';
+        }
+        a[index].style.display='block';
+    }
+    //设置定时器，每隔两秒切换一张图片
+    setInterval(ChangeImg,8000);
+</script>
+
+
+<section class="container">
+    <aside class="colspan col-3 nomp">
+    <dl class="nav-left">
+        <dt>应用成效</dt>
+        <dd class="nav">
+            <ul>
+                <li id="yjgk-nav1"><a href="#">教改研究结硕果</a></li>
+                <li id="yjgk-nav2"><a href="#sy">成果受益面广</a></li>
+                <li id="yjgk-nav3"><a href="#cb">成果经验广泛传播</a></li>
+            </ul>
+        </dd><!--
+        <dd class="sub-icons">
+        </dd> -->
+    </dl>
+        <div class="left-bgimg">
+			<img src="static/picture/leftPic/left1.jpg">
+		</div>
+    </aside>
+
+
+    <main class="colspan col-9">
+    <div id="position"><a class="home" href="index.html"><span>主页</span><i class="ico ico-home"></i></a><span class="first">&gt;</span><a href="yycx.html">应用成效</a></div>
+    <div class="brief">
+	<!-- 教改研究结硕果 -->
+	<h2 id="jg">教改研究结硕果</h2>
+	<p style="text-indent: 2em;">本成果依托教育部产学协同育人项目（共20多项，项目总经费200余万元，详见页尾附表或“附件2”）开展相关研究，取得了较丰硕的研究成果，具体如下。</p>
+	<h3 id="jgbook">团队基于COOC平台创建的教程已出版教材5部（Elsevier英文教材1部）</h3>
+	<p><strong>1. 《无人驾驶原理与实践》</strong>  2019年出版，机械工业出版社，<a href="https://item.jd.com/12472531.html#none">入选“AI工程师必看的10本书”，好评如潮</a></p>
+	<div style="text-align: center;" id="book1">
+		<img src="static/picture/book/book1.png" width="60%">
+	</div>
+
+	<p><strong>2. 《Blockly创意趣味编程》</strong>  2019年出版，机械工业出版社，出版3个月后第2次印刷</p>
+	<p><strong>3. 《大学信息技术基础》</strong>  2021年出版，人民邮电出版社，出版3个月后第2次印刷</p>
+	<p><strong>4. 《人工智能技术基础》</strong>  2021年出版，人民邮电出版社</p>
+	<p><strong>5. 《<a href="https://www.elsevier.com/books/theories-and-practices-of-self-driving-vehicles/zhou/978-0-323-99448-4">Theories and Practices of Self-Driving Vehicles</a>》</strong>  2022年出版，Elsevier出版社出版</p>
+	<div style="text-align: center;" id="book44">
+		<img src="static/picture/book/book44.png" width="90%">
+	</div>
+	
+	<h3 id="jgmooc">团队基于“COOC+MOOC”协同创建的《<a href="https://www.icourse163.org/course/LZU-1206454835">Blockly创意趣味编程</a>》在线课程在知名MOOC平台开课，并认定为“省级一流线上课程”</h3>
+	<br>
+	<div style="text-align: center;" id="mooc1">
+		<img src="static/picture/yycx/mooc1.png" width="70%">
+	</div>
+	<p><strong>课程COOC平台网址：</strong>
+		<ul>Blockly创意趣味编程：<a href="https://cooc-china.github.io/blockly/2017/05/23/play-blockly-with-me.html">https://cooc-china.github.io/blockly/2017/05/23/play-blockly-with-me.html</a></ul></p>
+	<p><strong>课程MOOC平台网址：</strong>
+		<ul>超星“学银在线”平台：<a href="https://www.xueyinonline.com/detail/216679618">https://www.xueyinonline.com/detail/216679618</a></ul>
+		<ul>“中国大学MOOC”平台：<a href="https://www.icourse163.org/course/LZU-1206454835">https://www.icourse163.org/course/LZU-1206454835</a></ul>
+		</p>
+	<div style="text-align: center;" id="mooc2">
+			<img src="static/picture/yycx/mooc2.png" width="40%">
+		</div>
+	<h3 id="jgxxjs">团队基于“COOC+MOOC”协同创建的《大学信息技术基础》在线课程在“MOOC中国杯”优质在线教育课程资源评优中荣获“银奖”</h3>
+	<br>
+	<div style="text-align: center;" id="mooc3">
+		<img src="static/picture/yycx/mooc3.png" width="70%">
+	</div>
+	<p><strong>课程COOC平台网址：</strong><a href="https://cooc-china.github.io/%E8%AF%BE%E7%A8%8B%E5%BB%BA%E7%AB%8B/2019/06/12/Information-Technology-Foundation.html">https://cooc-china.github.io/%E8%AF%BE%E7%A8%8B%E5%BB%BA%E7%AB%8B/2019/06/12/Information-Technology-Foundation.html</a></p>
+	<p id="dxxxmc"><strong>课程MOOC平台网址：</strong>
+		<a href="https://courses.lzu.edu.cn/res/jsj/">https://courses.lzu.edu.cn/res/jsj/</a>
+		</p>
+	<div style="text-align: center;" id="mooc4">
+			<img src="static/picture/yycx/mooc4.png" width="40%">
+		</div>
+	
+	<h3 id="jgzz">团队基于“COOC+MOOC”在线学习新模式促进学习者深度学习的研究，出版专著《深度学习视域下MOOC学习活动设计的理论与实践》</h3>
+	<br>
+	<div style="text-align: center;" id="mooc5">
+		<img src="static/picture/yycx/mooc5.jpg" width="20%">
+	</div>
+
+	<h3 id="jgpp">发表与成果相关教研论文22篇，其中SCI、SSCI和CSSCI来源期刊论文11篇</h3>
+	<p><strong>1. 关于协作式开放在线教程的建设构想与实践</strong><br>
+		（周庆国、李廉等，CSSCI期刊《中国大学教学》，2016年第4期）
+	</p>
+	<iframe src="pdf/paper/pp1.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>2. 基于COOC的深度学习过程设计与实践研究</strong><br>
+		（崔向平、陆禹文等，《开放学习研究》，2018年第3期）
+	</p>
+	<iframe src="pdf/paper/pp2.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>3. 基于COOC平台的创客教育模式构建与应用</strong><br>
+		（崔向平、赵冲等，CSSCI期刊《现代教育技术》，2019年第2期）
+	</p>
+	<iframe src="pdf/paper/pp3.pdf" width="900px" height="1170px"></iframe>
+	<p><strong>4. 基于翻转课堂的MOOC平台问题库模型设计研究</strong><br>
+		（崔向平、黄肖杰、周庆国、李廉，《开放学习研究》，2020年第6期）
+	</p>
+	<iframe src="pdf/paper/pp4.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>5. 新工科背景下对于计算思维的再认识</strong><br>
+		（狄长艳、周庆国、李廉，CSSCI期刊《中国大学教学》，2019年第7期）
+	</p>
+	<iframe src="pdf/paper/pp5.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>6. <a href="https://www.edu.cn/info/media/zyyy/wj/201608/t20160816_1440128.shtml">这些步骤指导你：轻松创建协作式开放在线教程</a></strong><br>
+		（周庆国、周睿等，《中国教育网络》，2016年第8期）
+	</p>
+	<iframe src="pdf/paper/pp6.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>7. 网络校际协作环境下作业互评活动设计研究</strong><br>
+		（崔向平，CSSCI期刊《中国电化教育》，2015年第11期）
+	</p>
+	<iframe src="pdf/paper/pp7.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>8. 校际协作学习活动模式应用的实证研究</strong><br>
+		（崔向平，CSSCI期刊《现代教育技术》，2015年第12期）
+	</p>
+	<iframe src="pdf/paper/pp8.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>9. 促进深度学习的校际协作学习活动设计——理论框架与个案研究</strong><br>
+		（崔向平，《高等理科教育》，2015年第4期）
+	</p>
+	<iframe src="pdf/paper/pp9.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>10. 基于微信的校际协作学习活动设计研究</strong><br>
+		（崔向平，CSSCI期刊《兰州大学学报（社科版）》，2019年第3期）
+	</p>
+	<iframe src="pdf/paper/pp10.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>11. 在线学习活动的类型与设计要点</strong><br>
+		（崔向平，《高等理科教育》，2020年第3期）
+	</p>
+	<iframe src="pdf/paper/pp11.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>12. “新工科”模式下无人驾驶教学实验平台实践与探索</strong><br>
+		（周睿、周庆国等，《微纳电子与智能制造》，2020年第1期）
+	</p>
+	<iframe src="pdf/paper/pp12.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>13. 发展中国特色的慕课模式 提升教改创新与人才培养质量</strong><br>
+		（李廉 等，CSSCI期刊《中国大学教学》，2018年第1期）
+	</p>
+	<iframe src="pdf/paper/pp13.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>14. 计算思维2.0与新工科</strong><br>
+		（李廉，《计算机教育》，2020年第6期）
+	</p>
+	<iframe src="pdf/paper/pp14.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>15. 基于COOC平台的智慧教程创建与应用</strong><br>
+		（崔向平、周庆国等，《高等理科教育》，2022年第3期）
+	</p>
+	<iframe src="pdf/paper/pp15.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>16. 人工智能整合教学研究的热点、主题与趋势分析</strong><br>
+		（崔向平 等，CSSCI来源期刊《现代教育技术》，2022年第8期）
+	</p>
+	<iframe src="pdf/paper/pp16.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>17. Investigation about participatory teachers' training based on MOOC</strong><br>
+		（周庆国、周睿等，EI期刊《International Journal of Distance Education Technologies》，2015年第3期）
+	</p>
+	<iframe src="pdf/paper/pp17.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>18. A collaborative and open solution for large-scale online learning</strong><br>
+		（周庆国、周睿等，SCI期刊《COMPUTER APPLICATIONS IN ENGINEERING EDUCATION》，2018年5月）
+	</p>
+	<iframe src="pdf/paper/pp18.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>19. Learning Network Storage Curriculum With Experimental Case Based on Embedded Systems</strong><br>
+		（周庆国、周睿等，SCI期刊《COMPUTER APPLICATIONS IN ENGINEERING EDUCATION》，2016年）
+	</p>
+	<iframe src="pdf/paper/pp19.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>20. Innovation event model for STEM education: A constructivism perspective</strong><br>
+		（狄长艳、周庆国、周睿等，《STEM Education》，2021年第1期）
+	</p>
+	<iframe src="pdf/paper/pp20.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>21. Online Practical Deep Learning Education: Using Collective Intelligence from a Resource Sharing Perspective</strong><br>
+		（雍宾宾、周庆国等，SSCI期刊《Educational Technology & Society》，2022年第1期）
+	</p>
+	<iframe src="pdf/paper/pp21.pdf" width="900px" height="1170px"></iframe>
+
+	<p><strong>22. Artificial Intelligence in Engineering Education in the Case of Self-Driving Vehicle Curriculum</strong><br>
+		（周睿、周庆国等，The 25th IEEE International Conference on Intelligent Transportation Systems, IEEE ITSC 2022, 智能交通顶级会议，2022年10月）
+	</p>
+	<iframe src="pdf/paper/pp22.pdf" width="900px" height="1170px"></iframe>
+
+	<h3 id="jgzl">面向在线教程研发的教具获批发明专利3项、软件著作权2项</h3>
+	<p><strong>1. 发明专利：一种智能机器人寻线导航的方法与装置</strong>（周庆国、狄长艳、周睿等，2017年）</p>
+	<p><strong>2. 发明专利：嵌入式开发中硬件输入模块和外部接口的远程控制方法</strong>（周庆国等，2019年）</p>
+	<p><strong>3. 发明专利：一种基于移动终端的可视化环境下NB-IOT终端软件开发方法</strong>（周睿、周庆国等，2022年）</p>
+	<p><strong>4. 软著：嵌入式在线实验室软件[简称：EOLAB] V1.0</strong>（周庆国、周睿等，2018年）</p>
+	<p id="jghj1ach"><strong>5. 软著：基于移动终端的NB-IOT集成可视化开发环境软件V1.0</strong>（周庆国、周睿等，2020年）</p>
+	<div style="text-align: center;" id="zl1">
+		<img src="static/picture/yycx/zl1.png">
+	</div>
+	<h3 id="jghj1">本成果于2021年荣获甘肃省高等教育教学成果特等奖</h3>
+	<br>
+	<div style="text-align: center;" id="jghj1img">
+		<img src="static/picture/yycx/jghj1.jpg" width="45%">
+	</div>
+	<h3 id="jghj2">教学成果荣获兰州大学教学成果一等奖，获批立项为2020年甘肃省高等教育教学成果培育项目</h3>
+	<br>
+	<div style="text-align: center;" id="jghj2img">
+		<img src="static/picture/yycx/jghj2.png">
+	</div>
+
+	<h3 href="jgry1">团队教师荣获相关荣誉30多项</h3>
+	<br>
+	<iframe src="pdf/jgjsry.pdf" width="900px" height="1170px"></iframe>
+
+	<h3 href="jgry2">团队教师指导学生参赛获奖20多项</h3>
+	<br>
+	<iframe src="pdf/jgxsry.pdf" width="900px" height="1170px"></iframe>
+
+		<!-- 成果受益面广 -->
+		<h2 id="sy">成果受益面广</h2>
+		<iframe src="pdf/cgsy.pdf" width="900px" height="1180px"></iframe>
+		<h2 id="cb">成果经验广泛传播</h2>
+		<iframe src="pdf/jycb.pdf" width="900px" height="1180px"></iframe>
+		<h2 id="fb">附表：教改项目</h2>
+		<iframe src="pdf/jgxm.pdf" width="900px" height="1180px"></iframe>
+	
+	</div>
+
+        <article>
+        
+        </article>
+</main>
+</section>
+
+<div class="white-space"></div>
+
+<footer id="page-footer">
+	<div class="white-space"></div>
+		<div class="ta-c">
+				<i class="lzu xiaofeng">勤奋　求实　进取</i>
+				<i class="lzu xiaoxun none">自强不息　独树一帜</i>
+		</div>
+		<address>
+			<br>
+			<br class="mob-show" />地址: 甘肃省兰州市城关区兰州大学飞云楼531　联系电话：0931-8912025　邮箱：zhouqg@lzu.edu.cn
+			<br>
+			版权所有&copy;兰州大学2022年国家级教学成果奖申报COOC团队
+		</address>
+		<div class="btm-bg-x"></div>
+</footer>
+
+<div class="site-menus">
+	<div class="so"></div>
+	<dl id="map1" rel="1">
+		<dt><a href="yjgk.html">研究概况</a></dt>
+		<dd><ul class="subnav">
+			<li rel="12"><a href="yjgk.html#bj">成果背景</a></li>
+			<li rel="13"><a href="yjgk.html#jj">成果简介</a>
+			<li rel="14"><a href="yjgk.html#zywt">主要解决的教学问题</a></li>
+			<li rel="15"><a href="yjgk.html#yjnr">主要研究内容</a></li>
+			<li rel="16"><a href="yjgk.html#cxd">成果创新点</a></li>
+			<li rel="17"><a href="yjgk.html#cxd3">完成人情况</a></li>
+			<li rel="18"><a href="yjgk.html#wcdw">完成单位情况</a></li>
+		</ul></dd>
+	</dl>
+
+	<dl id="map2" rel="2">
+		<dt><a href="yycx.html">应用成效</a></dt>
+		<dd><ul class="subnav">
+			<li rel="22"><a href="yycx.html">教改研究结硕果</a></li>
+			<li rel="23"><a href="#sy">成果受益面广</a></li>
+			<li rel="24"><a href="#cb">成果经验广泛传播</a></li>
+		</ul></dd>
+	</dl>
+
+	<dl id="map5" rel="5">
+		<dt><a href="fjcl.html">附件材料</a></dt>
+		<dd><ul class="subnav">
+			<li rel="52"><a href="fjcl.html#sbs">教学成果奖申报书</a></li>
+			<li rel="53"><a href="fjcl.html#zjbg">附件1：教学成果总结报告</a></li>
+			<li rel="54"><a href="fjcl.html#zmcl">附件2：教学成果应用及效果证明材料</a></li>
+		</ul></dd>
+	</dl>
+</div>
+</body>
+<script>
+	if ($('body').width() > 1000) {
+		$('#main-nav li').each(function (index, el) {
+			id = $(this).attr('rel');
+			$(this).append($('#map' + id + ' ul').clone());
+		});
+		$('#main-nav li').hover(function () {
+			$(this).addClass('active');
+		}, function () {
+			$(this).removeClass('active');
+		});
+	}
+</script>
+</html>

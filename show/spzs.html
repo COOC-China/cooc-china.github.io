@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>基于“COOC+MOOC”的在线课程协同创建与应用</title>
+	<meta name="description" content="基于“COOC+MOOC”的在线课程协同创建与应用，2022年高等教育（本科）国家级教学成果奖申报" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="renderer" content="webkit" />
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0,minimum-scale=0.5, maximum-scale=10.0,user-scalable=yes">
+	<meta name="robots" content="all" />
+	<link rel="shortcut icon" type="image/x-icon" href="/res/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="static/css/global.css" />
+	<link rel="stylesheet" type="text/css" href="static/css/grid.css" />
+	<link rel="stylesheet" type="text/css" href="static/css/lzu.css" id="lzu" />
+	<link rel="stylesheet" type="text/css" href="static/css/ico.css" />
+	<link rel="stylesheet" type="text/css" href="static/css/common.css" id="common" />
+	<script src="static/js/swiper.min.js"></script>
+	<script type="text/javascript" src="static/js/lzuicon.js" id="icon"></script>
+	<script type="text/javascript" src="static/js/lzujq.min.js"></script>
+	<script type="text/javascript" src="static/js/dialog.js"></script>
+	<script type="text/javascript" src="static/js/lzujq.touchswipe.min.js"></script>
+	<script type="text/javascript" src="static/js/lzu.js"></script>
+	<script src="static/js/pagechange.js"></script>
+	<!--[if lt IE 9]>
+<script type="text/javascript" src="static/js/html5shiv.min.js"></script>
+<script type="text/javascript" src="static/js/respond.min.js"></script>
+<link rel="stylesheet" type="text/css" href="static/css/ie6-8.css" />
+<![endif]-->
+	<!--[if IE 6]>
+<link rel="stylesheet" type="text/css" href="static/css/ie6.css" />
+<script type="text/javascript" src="static/js/ie6_maxmin.js"></script>
+<script type="text/javascript" src="static/js/dd_belatedpng.min.js"></script>
+<script>
+DD_belatedPNG.fix('#row-1');
+DD_belatedPNG.fix('.logo img');
+DD_belatedPNG.fix('.nav-icon i');
+DD_belatedPNG.fix('h2 i');
+DD_belatedPNG.fix('.ilzu');
+DD_belatedPNG.fix('.btm-bg-x');
+DD_belatedPNG.fix('#btm-logo-out img');
+</script>
+<![endif]-->
+
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Cache" content="no-cache">
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<link rel="stylesheet" type="text/css" href="static/css/home.css" />
+</head>
+
+<body class="nomp home">
+	<header>
+		<div id="nav-top" class="nomp">
+			<div class="" id="row-1">
+				<div class="container percent">
+					<div class="per per-4_1">
+						<span class="mob-show" id="mob-menu"><svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-menu"></use>
+							</svg></span>
+						<span class="mob-show" id="mob-service"><svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-service"></use>
+							</svg></span>
+						<span class="mob-show" id="mob-user"><svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-user"></use>
+							</svg></span>
+						<a href="#" class="logo">
+							<!--[if !IE]><!--><img src="static/picture/logo.svg" width="265" height="80" alt="兰州大学" />
+							<!--<![endif]-->
+							<!--[if IE]><!--[if gt IE 6]><img src="static/picture/logo@2x.png" width="265" height="80" alt="兰州大学" /><![endif]-->
+							<!--[if lt IE 7]><img src="static/picture/logo.png" width="265" height="80" alt="兰州大学" /><![endif]-->
+							<![endif]-->
+			</a>
+		</div>
+		<div class="per per-4_3">
+			<a href="#">
+				<img src="static/picture/big-title.png" width="900" height="80"/>
+			</a>
+		</div>
+	</div>
+	</div>
+	<div id="row-2">
+	<div class="container">
+		<div id="nav-shade" class="shade-right mob-show"><i class="ico ico-toright"></i></div>
+		<nav class="left">
+        <ul id="main-nav">
+        	<li class="nav-main"><a href="index.html"><span>首页</span></a></li>
+			<li rel="1" class="nav-main"><a href="yjgk.html"><span>研究概况</span><i class="ico ico-drop-down mob-none"></i></a></li>
+			<li rel="2" class="nav-main"><a href="yycx.html"><span>应用成效</span><i class="ico ico-drop-down mob-none"></i></a></li>
+			<li rel="3" class="nav-main"><a href="spzs.html"><span><strong>视频展示</strong></span></a></li>
+			<li rel="4" class="nav-main"><a href="cgjd.html"><span>成果鉴定</span></a></li>
+			<li rel="5" class="nav-main"><a href="fjcl.html"><span>附件材料</span><i class="ico ico-drop-down mob-none"></i></a></li>
+        	<!-- <li class="nav-main mob-show"><a href="http://en.lzu.edu.cn/"><span>English</span></a></li> -->
+        </ul>
+        </nav>
+        <form id="so-top" class="so right mob-none" action="javascript:search()" method="get" target="_blank">
+			<input type="hidden" name="human" value="yes">
+			<input type="text" id="so" value="" name="q" placeholder="请输入关键词..." />
+			<button type="submit"><i class="ico ico-so"></i></button>
+			<!-- TO DO：实现当前页面的Ctrl+F功能 -->
+		</form>
+	</div>
+	</div>
+</div>
+
+</header>
+<!-- 幻灯片 -->
+</head>
+<div class="ADD_imgBox">
+    <img class="ADD_img-slide ADD_img1" src="static/picture/lzuPic/pc2.jpg" alt="校园风光">
+	<img class="ADD_img-slide ADD_img2" src="static/picture/lzuPic/pc1.jpg" alt="校园风光">
+	<img class="ADD_img-slide ADD_img3" src="static/picture/lzuPic/pc3.jpg" alt="校园风光">
+	<img class="ADD_img-slide ADD_img4" src="static/picture/lzuPic/pc4.jpg" alt="校园风光">
+</div>
+<script type="text/javascript">
+    var index=0;
+    //效果
+    function ChangeImg() {
+        index++;
+        var a=document.getElementsByClassName("ADD_img-slide");
+        if(index>=a.length) index=0;
+        for(var i=0;i<a.length;i++){
+            a[i].style.display='none';
+        }
+        a[index].style.display='block';
+    }
+    //设置定时器，每隔两秒切换一张图片
+    setInterval(ChangeImg,8000);
+</script>
+
+<main >
+
+
+<!-- 视频展示界面 -->
+	<div class="partition" id="SE-1">
+		<div class="container">
+			<h2>
+				<em></em>
+				<i class="ico ico-cloud-l"></i>
+				<a href="#" title="点击查看详情">视频展示</a>
+				<i class="ico ico-cloud-r"></i>
+				<em></em>
+			</h2>
+		</div>
+		<video controls="controls" width="800px">
+			<source src="static/images/video-show.mp4">
+		</video>
+	</div>
+</main>
+
+<footer id="page-footer">
+	<div class="white-space"></div>
+		<div class="ta-c">
+				<i class="lzu xiaofeng">勤奋　求实　进取</i>
+				<i class="lzu xiaoxun none">自强不息　独树一帜</i>
+		</div>
+		<address>
+			<br>
+			<br class="mob-show" />地址: 甘肃省兰州市城关区兰州大学飞云楼531　联系电话：0931-8912025　邮箱：zhouqg@lzu.edu.cn
+			<br>
+			版权所有&copy;兰州大学2022年国家级教学成果奖申报COOC团队
+		</address>
+		<div class="btm-bg-x"></div>
+</footer>
+
+<div class="site-menus"><div class="so">
+
+</div><dl id="map1" rel="1">
+<dt><a href="/static/rsld/">研究概况</a></dt>
+<dd><ul class="subnav">
+	<li rel="12"><a href="yjgk.html#bj">成果背景</a></li>
+	<li rel="13"><a href="yjgk.html#jj">成果简介</a>
+	<li rel="14"><a href="yjgk.html#zywt">主要解决的教学问题</a></li>
+	<li rel="15"><a href="yjgk.html#yjnr">主要研究内容</a></li>
+	<li rel="16"><a href="yjgk.html#cxd">成果创新点</a></li>
+	<li rel="17"><a href="yjgk.html#cxd3">完成人情况</a></li>
+	<li rel="18"><a href="yjgk.html#wcdw">完成单位情况</a></li>
+</ul></dd>
+</dl>
+
+<dl id="map2" rel="2">
+<dt><a href="yycx.html">应用成效</a></dt>
+<dd><ul class="subnav">
+<li rel="22"><a href="yycx.html">教改研究结硕果</a></li>
+<li rel="23"><a href="yycx.html#sy">成果受益面广</a></li>
+<li rel="24"><a href="yycx.html#cb">成果经验广泛传播</a></li>
+</ul></dd>
+</dl>
+
+<dl id="map5" rel="5">
+<dt><a href="fjcl.html">附件材料</a></dt>
+<dd><ul class="subnav">
+<li rel="52"><a href="fjcl.html#sbs">教学成果奖申报书</a></li>
+<li rel="53"><a href="fjcl.html#zjbg">附件1：教学成果总结报告</a></li>
+<li rel="54"><a href="fjcl.html#zmcl">附件2：教学成果应用及效果证明材料</a></li>
+</ul></dd>
+</dl>
+
+</div>
+<script>
+	if ($('body').width() > 1000) {
+		$('#main-nav li').each(function (index, el) {
+			id = $(this).attr('rel');
+			$(this).append($('#map' + id + ' ul').clone());
+		});
+		$('#main-nav li').hover(function () {
+			$(this).addClass('active');
+		}, function () {
+			$(this).removeClass('active');
+		});
+	}
+</script>
+
+
+
+
+<!-- Last updated: 2022-10-10 17:26:46 -->
+</body>
+
+</html>
