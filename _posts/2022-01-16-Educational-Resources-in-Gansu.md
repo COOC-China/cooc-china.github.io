@@ -10,4 +10,4 @@ categories: ['课程建立']
 
 [学习课程](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
 
-[![Android AsyncTask Activity 课程](https://www.yuque.com/jiangming-gbt6j/kb/ked2pivrm78nkv9l)](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
+[![Android AsyncTask Activity 课程]([img]https://www.yuque.com/jiangming-gbt6j/kb/ked2pivrm78nkv9l[/img])](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
