@@ -2,7 +2,7 @@
 layout: index
 ---
 * [![Theories and Practices of Self-Driving Vehicles）](/images/book-thumb/ENselfDriving.png)](https://rocape.gitbook.io/selfdrivingen/)
-* [![甘肃省红色教育资源）](/images/book-thumb/Educational-Resources-of-gansu2.png)](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
+* [![甘肃省红色教育资源）](/images/book-thumb/Educational-Resources-of-gansu3.png)](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
 * [![大学生信息技术基础](/images/book-thumb/Information-Technology-Foundation.png)](https://luyuwen.gitbooks.io/uitf/content/)
 * [![App Inventor - 零基础Android移动应用开发](/images/book-thumb/app-inventer.png)](https://minghuiwu.gitbooks.io/appinventor/content/)
 * [![新一代信息技术）](/images/book-thumb/New-generation-information-technology.png)](https://www.yuque.com/swiftsonwran/myyobi)
