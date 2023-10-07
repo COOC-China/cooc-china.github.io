@@ -13,7 +13,7 @@ layout: index
 * [![无人驾驶原理与实践）](/images/book-thumb/selfDriving.png)](https://rocape.gitbook.io/selfdrivingcn/)
 * [![数字逻辑（数字电路）](/images/book-thumb/Digital-logic-digital-circuit.png)](https://zhumx13.gitbooks.io/graduation_book/content/)
 * [![计算机导论](/images/book-thumb/introduce_to_computer.png)](https://kinggolzu.gitbooks.io/introduction-to-computer/content/)
-* [![Blockly创意趣味编程](/images/book-thumb/play_with_blockly.png)](https://rocape.gitbook.io/blockly/)
+* [![Blockly创意趣味编程](/images/book-thumb/play_with_blockly.png)](https://www.yuque.com/jiangming-gbt6j/onnyrq?)
 * [![人工智能技术基础）](/images/book-thumb/AItf.png)](https://rocape.gitbook.io/aitf/)
 * [![嵌入式系统底层开发](/images/book-thumb/embed_logo.png)](https://cooc-china.gitbooks.io/embedded-system-development/content/)
 * [![Build Your First App 课程](/images/book-thumb/build-your-first-app.jpg)](https://cooc-china.gitbooks.io/build-your-first-app-course/content/)
