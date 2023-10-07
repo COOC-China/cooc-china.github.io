@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Blockly创意趣味编程"
-date:   2023-10-07 14:54:36 +0800
+date:   2017-05-23 14:54:36 +0800
+update:  2023-10-07 20:10:07 +0800
 categories: ['Blockly']
 ---
 
@@ -12,4 +13,8 @@ categories: ['Blockly']
 
 [![跟我玩Blockly](https://1892333157-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-LAGigtuROPsQ2glV29e%2Fuploads%2Fgit-blob-b52e5fdcb83af3757ebae5dced03f4dc8e513904%2Fplay_with_blockly.png?alt=media)](https://rocape.gitbook.io/blockly/)
 
+
+<details>
+<summary></summary>
 (原地址：https://rocape.gitbook.io/blockly/)
+</details>
