@@ -10,4 +10,4 @@ categories: ['课程建立']
 
 [学习课程](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
 
-[![Android AsyncTask Activity 课程](/images/book-thumb/Educational-Resources-of-gansu3.png)](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
+[![Android AsyncTask Activity 课程](/images/book-thumb/Educational-Resources-of-gansu-20240304.jpg)](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
