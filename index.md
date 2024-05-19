@@ -18,3 +18,4 @@ layout: index
 * [![嵌入式系统底层开发](/images/book-thumb/embed_logo.png)](https://cooc-china.gitbooks.io/embedded-system-development/content/)
 * [![Build Your First App 课程](/images/book-thumb/build-your-first-app.jpg)](https://cooc-china.gitbooks.io/build-your-first-app-course/content/)
 * [![使用 GitHub Pages 和 GitBook 建立在线课程](/images/book-thumb/howto_logo.png)](https://zhip21.gitbook.io/cooc-howto-book/)
+* [![大学信息技术基础](/images/book-thumb/fundamental_of_university_information_technology.jpg)](https://lzugjy.gitbook.io/da-xue-xin-xi-ji-shu-ji-chu/)
