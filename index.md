@@ -3,7 +3,7 @@ layout: index
 ---
 * [![大学信息技术基础](/images/book-thumb/fundamental_of_university_information_technology.jpg)](https://lzugjy.gitbook.io/da-xue-xin-xi-ji-shu-ji-chu/)
 * [![Theories and Practices of Self-Driving Vehicles）](/images/book-thumb/ENselfDriving.png)](https://rocape.gitbook.io/selfdrivingen/)
-* [![甘肃省红色教育资源）](/images/book-thumb/Educational resources of Gansu province.png)](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
+* [![甘肃省红色教育资源）](/images/book-thumb/Educational resources of Gansu province.jpg)](https://www.yuque.com/books/share/30164ee6-d8c8-41cb-86dc-bd02df838aba)
 * [![App Inventor - 零基础Android移动应用开发](/images/book-thumb/app-inventer.png)](https://minghuiwu.gitbooks.io/appinventor/content/)
 * [![新一代信息技术）](/images/book-thumb/New-generation-information-technology.png)](https://www.yuque.com/swiftsonwran/myyobi)
 * [![幼儿园多媒体课件制作微课课程](/images/book-thumb/kindergarten.png)](https://blockly.gitbook.io/kmcp/)
@@ -18,4 +18,3 @@ layout: index
 * [![嵌入式系统底层开发](/images/book-thumb/embed_logo.png)](https://cooc-china.gitbooks.io/embedded-system-development/content/)
 * [![Build Your First App 课程](/images/book-thumb/build-your-first-app.jpg)](https://cooc-china.gitbooks.io/build-your-first-app-course/content/)
 * [![使用 GitHub Pages 和 GitBook 建立在线课程](/images/book-thumb/howto_logo.png)](https://zhip21.gitbook.io/cooc-howto-book/)
-* [![甘肃省红色教育资源）](/images/book-thumb/Educational resources of Gansu province.png)]( https://www.yuque.com/jiangming-gbt6j/app0hw)
