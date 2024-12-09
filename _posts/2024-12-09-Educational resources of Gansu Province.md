@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " educational resources of gansu province "
+title:  " Educational resources of Gansu Province "
 date:   2024-12-09 10:25:36 +0800
 categories: ['课程建立']
 ---
